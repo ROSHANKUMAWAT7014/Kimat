@@ -11,8 +11,8 @@
  * so local dev works without any configuration.
  */
 
-import type { AmenityKey, Driver, Furnishing, PropertyType, Specs } from "./model";
-import { predict as localPredict } from "./model";
+import type { AmenityKey, Driver, Furnishing, Prediction, PropertyType, Specs } from "./model";
+import { getLocalities, LOCATION_TO_CITY_ID } from "@/data/indiaLocations";
 
 const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
@@ -77,6 +77,57 @@ function specsToPayload(specs: Specs) {
   };
 }
 
+function isValidPredictionSpecs(specs: Specs) {
+  const validNumbers = [
+    specs.area,
+    specs.bhk,
+    specs.bathrooms,
+    specs.floor,
+    specs.totalFloors,
+  ].every((value) => Number.isFinite(value));
+  const validLocation =
+    Boolean(specs.state && specs.district && specs.city && specs.locality) &&
+    Boolean(LOCATION_TO_CITY_ID[specs.city]) &&
+    specs.cityId === LOCATION_TO_CITY_ID[specs.city] &&
+    getLocalities(specs.state, specs.district, specs.city).includes(specs.locality);
+
+  return (
+    validLocation &&
+    validNumbers &&
+    specs.area > 0 &&
+    specs.bhk >= 1 &&
+    specs.bathrooms >= 1 &&
+    specs.floor >= 0 &&
+    specs.totalFloors >= 0
+  );
+}
+
+function validatePredictionValues(prediction: Prediction) {
+  const values = [prediction.price, prediction.low, prediction.high, prediction.perSqft];
+  if (values.some((value) => !Number.isFinite(value) || value < 0)) {
+    throw new Error("The prediction returned invalid price values. Please try again.");
+  }
+}
+
+function formatApiDetail(detail: unknown) {
+  if (typeof detail === "string") return detail;
+  if (Array.isArray(detail)) {
+    const messages = detail
+      .map((item) => {
+        if (!item || typeof item !== "object") return null;
+        const message = "msg" in item ? item.msg : null;
+        return typeof message === "string" ? message : null;
+      })
+      .filter((message): message is string => message !== null);
+
+    if (messages.length > 0) {
+      const summary = "Invalid property location. Please select a supported city and locality.";
+      return import.meta.env.DEV ? `${summary} (${messages.join("; ")})` : summary;
+    }
+  }
+  return undefined;
+}
+
 // ---------------------------------------------------------------------------
 // API call
 // ---------------------------------------------------------------------------
@@ -86,6 +137,10 @@ function specsToPayload(specs: Specs) {
  * Throws on network / non-2xx errors so callers can handle gracefully.
  */
 export async function fetchPrediction(specs: Specs): Promise<ApiPredictResponse> {
+  if (!isValidPredictionSpecs(specs)) {
+    throw new Error("Invalid property location or prediction inputs. Please select a supported city and locality.");
+  }
+
   const res = await fetch(`${API_BASE}/predict`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -93,8 +148,9 @@ export async function fetchPrediction(specs: Specs): Promise<ApiPredictResponse>
   });
 
   if (!res.ok) {
-    const detail = await res.json().catch(() => ({})) as { detail?: string };
-    throw new Error(detail.detail ?? `Backend error ${res.status}`);
+    const body: unknown = await res.json().catch(() => null);
+    const detail = body && typeof body === "object" && "detail" in body ? body.detail : undefined;
+    throw new Error(formatApiDetail(detail) ?? `Backend error ${res.status}`);
   }
 
   return res.json() as Promise<ApiPredictResponse>;
@@ -112,7 +168,7 @@ export async function fetchPrediction(specs: Specs): Promise<ApiPredictResponse>
 export function apiResponseToPrediction(
   api: ApiPredictResponse,
   specs: Specs,
-): ReturnType<typeof localPredict> {
+): Prediction {
   const drivers: Driver[] = api.drivers.map((d) => ({
     key: d.key,
     label: d.label,
@@ -120,7 +176,7 @@ export function apiResponseToPrediction(
     note: d.note,
   }));
 
-  return {
+  const prediction = {
     price: api.price,
     low: api.low,
     high: api.high,
@@ -129,4 +185,7 @@ export function apiResponseToPrediction(
     drivers,
     confidence: api.confidence_band_pct / 100,
   };
+
+  validatePredictionValues(prediction);
+  return prediction;
 }

@@ -1,9 +1,9 @@
-import INDIA_LOCATIONS_DATA from "../../ml/data/KIMAT_DATA/final/india_locations.json";
+import INDIA_LOCATIONS_RAW from "../../ml/data/KIMAT_DATA/final/india_locations.json?raw";
 
 /**
  * Normalized location database for Pan-India support.
  */
-export const INDIA_LOCATIONS = INDIA_LOCATIONS_DATA;
+export const INDIA_LOCATIONS = JSON.parse(INDIA_LOCATIONS_RAW);
 
 /**
  * Maps the exact standardized string combination back to the internal `cityId`
@@ -39,7 +39,9 @@ export function getCities(state: string, district: string) {
   if (!state || !(state in INDIA_LOCATIONS)) return [];
   const stateData = INDIA_LOCATIONS[state as keyof typeof INDIA_LOCATIONS];
   if (!district || !(district in stateData)) return [];
-  return Object.keys(stateData[district as keyof typeof stateData]).sort();
+  return Object.keys(stateData[district as keyof typeof stateData])
+    .filter((city) => LOCATION_TO_CITY_ID[city])
+    .sort();
 }
 
 export function getLocalities(state: string, district: string, city: string) {

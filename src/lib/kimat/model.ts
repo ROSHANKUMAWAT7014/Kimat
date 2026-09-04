@@ -308,6 +308,12 @@ export interface Prediction {
   confidence: number;
 }
 
+export function isValidPrediction(prediction: Prediction) {
+  return [prediction.price, prediction.low, prediction.high, prediction.perSqft].every(
+    (value) => Number.isFinite(value) && value >= 0,
+  );
+}
+
 export function getCity(id: string): City {
   return CITIES.find((c) => c.id === id) ?? (CITIES[0] as City);
 }

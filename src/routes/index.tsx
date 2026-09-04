@@ -7,6 +7,7 @@ import {
   DEFAULT_SPECS,
   formatINR,
   getCity,
+  isValidPrediction,
   predict as localPredict,
   type AgeBand,
   type AmenityKey,
@@ -100,7 +101,12 @@ function Kimat() {
         const message = err instanceof Error ? err.message : "Prediction unavailable";
         setApiError(message);
         // Fall back to local model so the UI is never blank.
-        setApiPrediction(localPredict(currentSpecs));
+        const fallback = localPredict(currentSpecs);
+        setApiPrediction(
+          isValidPrediction(fallback)
+            ? fallback
+            : null,
+        );
       } finally {
         setApiLoading(false);
       }
@@ -135,8 +141,18 @@ function Kimat() {
   const handleLocationChange = (key: keyof Specs, val: string) => {
     setSpecs((s) => {
       const next = { ...s, [key]: val };
-      if (key === "city" && LOCATION_TO_CITY_ID[val]) {
-        next.cityId = LOCATION_TO_CITY_ID[val];
+      if (key === "state") {
+        next.district = "";
+        next.city = "";
+        next.locality = "";
+        next.cityId = "";
+      } else if (key === "district") {
+        next.city = "";
+        next.locality = "";
+        next.cityId = "";
+      } else if (key === "city") {
+        next.locality = "";
+        next.cityId = LOCATION_TO_CITY_ID[val] ?? "";
       }
       return next;
     });

@@ -28,7 +28,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
  *   VITE_API_URL=https://your-app.onrender.com  ← production (Vercel env var)
  */
 const API_BASE =
-  `${(import.meta.env.VITE_API_URL as string | undefined) ?? "http://localhost:8000"}/api/auth`;
+  `${(import.meta.env["VITE_API_URL"] as string | undefined) ?? "http://localhost:8000"}/api/auth`;
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [isAuthenticated, setIsAuthenticated] = useState(false);

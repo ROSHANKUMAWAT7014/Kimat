@@ -14,7 +14,7 @@
 import type { AmenityKey, Driver, Furnishing, PropertyType, Specs } from "./model";
 import { predict as localPredict } from "./model";
 
-const API_BASE = (import.meta.env.VITE_API_URL as string | undefined) ?? "http://localhost:8000";
+const API_BASE = (import.meta.env["VITE_API_URL"] as string | undefined) ?? "http://localhost:8000";
 
 // ---------------------------------------------------------------------------
 // Types that mirror the FastAPI response schemas

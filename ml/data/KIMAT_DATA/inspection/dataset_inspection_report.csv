@@ -1,0 +1,17 @@
+dataset,rows,columns,has_state,has_city,has_district,has_locality,has_price,has_area,has_duplicates,has_latlong,has_bhk,has_bath,has_type,has_age,has_amenities,has_parking_lift_sec,has_date
+up.csv,269418,7,True,True,False,False,True,True,True,False,False,False,False,False,False,False,False
+real_estate_dataset.csv,287,9,False,True,False,True,True,True,False,False,False,True,True,False,False,False,True
+output_Chandigarh_builderfloor.csv,1056,39,False,False,False,True,True,True,True,False,False,False,False,False,False,True,False
+output_Chandigarh_plot.csv,779,39,False,False,False,True,True,True,True,False,False,False,False,False,False,True,False
+output_Chandigarh_villa.csv,175,39,False,False,False,True,True,True,False,False,False,False,False,False,False,True,False
+output_Ghaziabad_builderfloor.csv,5533,39,False,False,False,True,True,True,True,False,False,False,False,False,False,True,False
+output_Ghaziabad_plot.csv,723,39,False,False,False,True,True,True,True,False,False,False,False,False,False,True,False
+output_Ghaziabad_villa.csv,278,39,False,False,False,True,True,True,True,False,False,False,False,False,False,True,False
+output_Lucknow_builderfloor.csv,74,38,False,False,False,True,True,True,True,False,False,False,False,False,False,True,False
+output_Lucknow_plot.csv,2060,39,False,False,False,True,True,True,True,False,False,False,False,False,False,True,False
+output_Lucknow_villa.csv,180,39,False,False,False,True,True,True,True,False,False,False,False,False,False,True,False
+output_Pune_builderfloor.csv,123,39,False,False,False,True,True,True,False,False,False,False,False,False,False,True,False
+output_Pune_plot.csv,1870,39,False,False,False,True,True,True,True,False,False,False,False,False,False,True,False
+output_Pune_villa.csv,977,39,False,False,False,True,True,True,True,False,False,False,False,False,False,True,False
+RE_Combined_Data.xlsx,33931,30,False,True,False,True,True,False,False,False,False,False,True,True,False,False,True
+real_estate_dataset.json,1,1,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False

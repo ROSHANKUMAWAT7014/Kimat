@@ -1,0 +1,515 @@
+dataset,column,dtype,missing_pct,unique_vals,min,max,median
+up.csv,plot_type,str,0.0,64,,,
+up.csv,city,str,0.0,291,,,
+up.csv,price,str,0.0,11842,,,
+up.csv,Unit,str,0.0,3,,,
+up.csv,Rupee_per_area,str,0.0,29741,,,
+up.csv,Area,int64,0.0,0,10.0,3833280.0,1275.0
+up.csv,state,str,0.0,22,,,
+real_estate_dataset.csv,url,str,0.0,280,,,
+real_estate_dataset.csv,beds,int64,0.0,0,0.0,12.0,2.0
+real_estate_dataset.csv,city,str,0.0,26,,,
+real_estate_dataset.csv,date,str,0.0,25,,,
+real_estate_dataset.csv,size,str,0.0,211,,,
+real_estate_dataset.csv,type,str,0.0,48,,,
+real_estate_dataset.csv,baths,int64,0.0,0,0.0,12.0,1.0
+real_estate_dataset.csv,price,float64,0.0,0,0.0,600000000.0,10000000.0
+real_estate_dataset.csv,neighborhood,str,0.0,224,,,
+output_Chandigarh_builderfloor.csv,location,str,0.0,96,,,
+output_Chandigarh_builderfloor.csv,area,int64,0.0,0,460.0,9000.0,1200.0
+output_Chandigarh_builderfloor.csv,price,int64,0.0,0,1290000.0,100000000.0,3590000.0
+output_Chandigarh_builderfloor.csv,price_currency,str,0.0,1,,,
+output_Chandigarh_builderfloor.csv,status,float64,80.11,0,0.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,new/resale,int64,0.0,0,0.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,price_negotiable,int64,0.0,0,0.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,description,str,7.39,884,,,
+output_Chandigarh_builderfloor.csv,security_deposit,int64,0.0,0,1.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,facing,str,11.93,8,,,
+output_Chandigarh_builderfloor.csv,furnished,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_builderfloor.csv,age of property,int64,0.0,0,0.0,122.0,0.0
+output_Chandigarh_builderfloor.csv,Lift(s),int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_builderfloor.csv,Full Power Backup,int64,0.0,0,0.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,24 X 7 Security,int64,0.0,0,0.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,Children's play area,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_builderfloor.csv,Club House,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_builderfloor.csv,Gymnasium,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_builderfloor.csv,Swimming Pool,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_builderfloor.csv,Sports Facility,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_builderfloor.csv,Jogging Track,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_builderfloor.csv,Landscaped Gardens,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_builderfloor.csv,locality_score,float64,96.31,0,7.1,8.6,7.1
+output_Chandigarh_builderfloor.csv,project_score,float64,100.0,0,,,
+output_Chandigarh_builderfloor.csv,builder_experience,float64,99.53,0,123.0,123.0,123.0
+output_Chandigarh_builderfloor.csv,Intercom,float64,71.88,0,1.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,Indoor Games,float64,79.26,0,1.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,ATM,float64,65.53,0,1.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,Maintenance Staff,float64,69.89,0,1.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,Staff Quarter,float64,80.97,0,1.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,Multipurpose Room,float64,83.9,0,1.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,Car Parking,float64,40.91,0,1.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,Hospital,float64,66.19,0,1.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,School,float64,62.69,0,1.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,Shopping Mall,float64,66.95,0,1.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,Vaastu Compliant,float64,72.54,0,1.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,Cafeteria,float64,81.34,0,1.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,Rain Water Harvesting,float64,70.64,0,1.0,1.0,1.0
+output_Chandigarh_builderfloor.csv,Golf Course,float64,86.55,0,1.0,1.0,1.0
+output_Chandigarh_plot.csv,location,str,0.0,65,,,
+output_Chandigarh_plot.csv,area,int64,0.0,0,66.0,11880.0,1089.0
+output_Chandigarh_plot.csv,price,int64,0.0,0,200000.0,60000000.0,3065000.0
+output_Chandigarh_plot.csv,price_currency,str,0.0,1,,,
+output_Chandigarh_plot.csv,status,float64,71.5,0,0.0,1.0,1.0
+output_Chandigarh_plot.csv,new/resale,int64,0.0,0,0.0,1.0,1.0
+output_Chandigarh_plot.csv,price_negotiable,int64,0.0,0,0.0,1.0,1.0
+output_Chandigarh_plot.csv,description,str,3.08,693,,,
+output_Chandigarh_plot.csv,security_deposit,int64,0.0,0,1.0,1.0,1.0
+output_Chandigarh_plot.csv,facing,str,27.21,8,,,
+output_Chandigarh_plot.csv,furnished,int64,0.0,0,0.0,0.0,0.0
+output_Chandigarh_plot.csv,age of property,int64,0.0,0,0.0,122.0,0.0
+output_Chandigarh_plot.csv,Lift(s),int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_plot.csv,Full Power Backup,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_plot.csv,24 X 7 Security,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_plot.csv,Children's play area,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_plot.csv,Club House,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_plot.csv,Gymnasium,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_plot.csv,Swimming Pool,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_plot.csv,Sports Facility,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_plot.csv,Jogging Track,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_plot.csv,Landscaped Gardens,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_plot.csv,locality_score,float64,91.53,0,7.1,7.1,7.1
+output_Chandigarh_plot.csv,project_score,float64,100.0,0,,,
+output_Chandigarh_plot.csv,builder_experience,float64,96.92,0,123.0,123.0,123.0
+output_Chandigarh_plot.csv,Hospital,float64,81.9,0,1.0,1.0,1.0
+output_Chandigarh_plot.csv,Multipurpose Room,float64,93.97,0,1.0,1.0,1.0
+output_Chandigarh_plot.csv,Rain Water Harvesting,float64,80.49,0,1.0,1.0,1.0
+output_Chandigarh_plot.csv,Vaastu Compliant,float64,87.29,0,1.0,1.0,1.0
+output_Chandigarh_plot.csv,ATM,float64,85.24,0,1.0,1.0,1.0
+output_Chandigarh_plot.csv,Car Parking,float64,61.62,0,1.0,1.0,1.0
+output_Chandigarh_plot.csv,Intercom,float64,93.07,0,1.0,1.0,1.0
+output_Chandigarh_plot.csv,Maintenance Staff,float64,87.03,0,1.0,1.0,1.0
+output_Chandigarh_plot.csv,School,float64,75.48,0,1.0,1.0,1.0
+output_Chandigarh_plot.csv,Shopping Mall,float64,80.23,0,1.0,1.0,1.0
+output_Chandigarh_plot.csv,Staff Quarter,float64,89.99,0,1.0,1.0,1.0
+output_Chandigarh_plot.csv,Golf Course,float64,93.84,0,1.0,1.0,1.0
+output_Chandigarh_plot.csv,Cafeteria,float64,88.7,0,1.0,1.0,1.0
+output_Chandigarh_plot.csv,Indoor Games,float64,89.47,0,1.0,1.0,1.0
+output_Chandigarh_villa.csv,location,str,0.0,49,,,
+output_Chandigarh_villa.csv,area,int64,0.0,0,530.0,9000.0,1225.0
+output_Chandigarh_villa.csv,price,int64,0.0,0,1900000.0,140000000.0,4990000.0
+output_Chandigarh_villa.csv,price_currency,str,0.0,1,,,
+output_Chandigarh_villa.csv,status,float64,77.71,0,0.0,1.0,1.0
+output_Chandigarh_villa.csv,new/resale,int64,0.0,0,0.0,1.0,1.0
+output_Chandigarh_villa.csv,price_negotiable,int64,0.0,0,0.0,1.0,1.0
+output_Chandigarh_villa.csv,description,str,4.57,153,,,
+output_Chandigarh_villa.csv,security_deposit,int64,0.0,0,1.0,1.0,1.0
+output_Chandigarh_villa.csv,facing,str,20.57,6,,,
+output_Chandigarh_villa.csv,furnished,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_villa.csv,age of property,int64,0.0,0,0.0,10.0,1.0
+output_Chandigarh_villa.csv,24 X 7 Security,int64,0.0,0,0.0,1.0,1.0
+output_Chandigarh_villa.csv,Full Power Backup,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_villa.csv,Jogging Track,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_villa.csv,Landscaped Gardens,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_villa.csv,Gymnasium,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_villa.csv,Lift(s),int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_villa.csv,Intercom,float64,90.29,0,1.0,1.0,1.0
+output_Chandigarh_villa.csv,Sports Facility,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_villa.csv,Swimming Pool,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_villa.csv,Club House,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_villa.csv,Children's play area,int64,0.0,0,0.0,1.0,0.0
+output_Chandigarh_villa.csv,locality_score,float64,97.14,0,7.1,7.1,7.1
+output_Chandigarh_villa.csv,project_score,float64,100.0,0,,,
+output_Chandigarh_villa.csv,builder_experience,float64,97.71,0,123.0,123.0,123.0
+output_Chandigarh_villa.csv,Car Parking,float64,44.0,0,1.0,1.0,1.0
+output_Chandigarh_villa.csv,Shopping Mall,float64,86.86,0,1.0,1.0,1.0
+output_Chandigarh_villa.csv,Indoor Games,float64,92.0,0,1.0,1.0,1.0
+output_Chandigarh_villa.csv,Maintenance Staff,float64,78.86,0,1.0,1.0,1.0
+output_Chandigarh_villa.csv,Multipurpose Room,float64,93.71,0,1.0,1.0,1.0
+output_Chandigarh_villa.csv,Rain Water Harvesting,float64,87.43,0,1.0,1.0,1.0
+output_Chandigarh_villa.csv,Cafeteria,float64,95.43,0,1.0,1.0,1.0
+output_Chandigarh_villa.csv,Vaastu Compliant,float64,80.57,0,1.0,1.0,1.0
+output_Chandigarh_villa.csv,ATM,float64,73.71,0,1.0,1.0,1.0
+output_Chandigarh_villa.csv,Golf Course,float64,97.71,0,1.0,1.0,1.0
+output_Chandigarh_villa.csv,Staff Quarter,float64,92.0,0,1.0,1.0,1.0
+output_Chandigarh_villa.csv,Hospital,float64,73.71,0,1.0,1.0,1.0
+output_Chandigarh_villa.csv,School,float64,73.14,0,1.0,1.0,1.0
+output_Ghaziabad_builderfloor.csv,location,str,0.05,102,,,
+output_Ghaziabad_builderfloor.csv,area,float64,0.05,0,300.0,5400.0,1260.0
+output_Ghaziabad_builderfloor.csv,price,float64,0.04,0,702000.0,35000000.0,6000000.0
+output_Ghaziabad_builderfloor.csv,price_currency,str,0.04,1,,,
+output_Ghaziabad_builderfloor.csv,status,float64,87.26,0,0.0,1.0,1.0
+output_Ghaziabad_builderfloor.csv,new/resale,float64,0.05,0,0.0,1.0,1.0
+output_Ghaziabad_builderfloor.csv,price_negotiable,float64,0.05,0,0.0,1.0,0.0
+output_Ghaziabad_builderfloor.csv,description,str,0.67,5118,,,
+output_Ghaziabad_builderfloor.csv,security_deposit,float64,0.05,0,1.0,1.0,1.0
+output_Ghaziabad_builderfloor.csv,facing,str,9.6,8,,,
+output_Ghaziabad_builderfloor.csv,furnished,float64,0.05,0,0.0,1.0,0.0
+output_Ghaziabad_builderfloor.csv,age of property,int64,0.0,0,0.0,122.0,0.0
+output_Ghaziabad_builderfloor.csv,Lift(s),float64,0.05,0,0.0,1.0,1.0
+output_Ghaziabad_builderfloor.csv,Full Power Backup,float64,0.05,0,0.0,1.0,0.0
+output_Ghaziabad_builderfloor.csv,24 X 7 Security,float64,0.05,0,0.0,1.0,0.0
+output_Ghaziabad_builderfloor.csv,Children's play area,float64,0.05,0,0.0,1.0,0.0
+output_Ghaziabad_builderfloor.csv,Club House,float64,0.05,0,0.0,1.0,0.0
+output_Ghaziabad_builderfloor.csv,Gymnasium,float64,0.05,0,0.0,1.0,0.0
+output_Ghaziabad_builderfloor.csv,Swimming Pool,float64,0.05,0,0.0,1.0,0.0
+output_Ghaziabad_builderfloor.csv,Sports Facility,float64,0.05,0,0.0,1.0,0.0
+output_Ghaziabad_builderfloor.csv,Jogging Track,float64,0.05,0,0.0,1.0,0.0
+output_Ghaziabad_builderfloor.csv,Landscaped Gardens,float64,0.05,0,0.0,1.0,0.0
+output_Ghaziabad_builderfloor.csv,locality_score,float64,64.77,0,5.8,10.0,9.3
+output_Ghaziabad_builderfloor.csv,project_score,float64,99.22,0,4.0,9.0,7.8
+output_Ghaziabad_builderfloor.csv,builder_experience,float64,95.43,0,13.0,2022.0,2022.0
+output_Ghaziabad_builderfloor.csv,Car Parking,float64,91.74,0,1.0,1.0,1.0
+output_Ghaziabad_builderfloor.csv,Rain Water Harvesting,float64,96.04,0,1.0,1.0,1.0
+output_Ghaziabad_builderfloor.csv,Intercom,float64,79.43,0,1.0,1.0,1.0
+output_Ghaziabad_builderfloor.csv,Maintenance Staff,float64,98.93,0,1.0,1.0,1.0
+output_Ghaziabad_builderfloor.csv,Indoor Games,float64,99.64,0,1.0,1.0,1.0
+output_Ghaziabad_builderfloor.csv,Vaastu Compliant,float64,95.81,0,1.0,1.0,1.0
+output_Ghaziabad_builderfloor.csv,Multipurpose Room,float64,99.62,0,1.0,1.0,1.0
+output_Ghaziabad_builderfloor.csv,ATM,float64,98.39,0,1.0,1.0,1.0
+output_Ghaziabad_builderfloor.csv,Golf Course,float64,99.98,0,1.0,1.0,1.0
+output_Ghaziabad_builderfloor.csv,Staff Quarter,float64,99.64,0,1.0,1.0,1.0
+output_Ghaziabad_builderfloor.csv,Hospital,float64,98.43,0,1.0,1.0,1.0
+output_Ghaziabad_builderfloor.csv,School,float64,98.17,0,1.0,1.0,1.0
+output_Ghaziabad_builderfloor.csv,Shopping Mall,float64,98.66,0,1.0,1.0,1.0
+output_Ghaziabad_builderfloor.csv,Cafeteria,float64,99.6,0,1.0,1.0,1.0
+output_Ghaziabad_plot.csv,location,str,0.0,86,,,
+output_Ghaziabad_plot.csv,area,int64,0.0,0,180.0,209424.0,900.0
+output_Ghaziabad_plot.csv,price,int64,0.0,0,100000.0,99985000.0,1750000.0
+output_Ghaziabad_plot.csv,price_currency,str,0.0,1,,,
+output_Ghaziabad_plot.csv,status,float64,34.3,0,0.0,1.0,1.0
+output_Ghaziabad_plot.csv,new/resale,int64,0.0,0,0.0,1.0,1.0
+output_Ghaziabad_plot.csv,price_negotiable,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_plot.csv,description,str,7.47,643,,,
+output_Ghaziabad_plot.csv,security_deposit,int64,0.0,0,1.0,1.0,1.0
+output_Ghaziabad_plot.csv,facing,str,24.2,8,,,
+output_Ghaziabad_plot.csv,furnished,int64,0.0,0,0.0,0.0,0.0
+output_Ghaziabad_plot.csv,age of property,int64,0.0,0,0.0,122.0,0.0
+output_Ghaziabad_plot.csv,Gymnasium,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_plot.csv,Children's play area,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_plot.csv,Club House,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_plot.csv,Lift(s),int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_plot.csv,Swimming Pool,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_plot.csv,Landscaped Gardens,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_plot.csv,Rain Water Harvesting,float64,90.18,0,1.0,1.0,1.0
+output_Ghaziabad_plot.csv,Maintenance Staff,float64,91.01,0,1.0,1.0,1.0
+output_Ghaziabad_plot.csv,Jogging Track,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_plot.csv,Sports Facility,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_plot.csv,Car Parking,float64,81.05,0,1.0,1.0,1.0
+output_Ghaziabad_plot.csv,24 X 7 Security,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_plot.csv,Full Power Backup,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_plot.csv,locality_score,float64,70.95,0,5.7,10.0,7.4
+output_Ghaziabad_plot.csv,project_score,float64,91.42,0,4.0,9.0,8.149999999999999
+output_Ghaziabad_plot.csv,builder_experience,float64,80.77,0,16.0,2022.0,123.0
+output_Ghaziabad_plot.csv,Indoor Games,float64,87.28,0,1.0,1.0,1.0
+output_Ghaziabad_plot.csv,ATM,float64,87.69,0,1.0,1.0,1.0
+output_Ghaziabad_plot.csv,Intercom,float64,94.47,0,1.0,1.0,1.0
+output_Ghaziabad_plot.csv,School,float64,77.87,0,1.0,1.0,1.0
+output_Ghaziabad_plot.csv,Shopping Mall,float64,87.41,0,1.0,1.0,1.0
+output_Ghaziabad_plot.csv,Multipurpose Room,float64,95.16,0,1.0,1.0,1.0
+output_Ghaziabad_plot.csv,Vaastu Compliant,float64,76.63,0,1.0,1.0,1.0
+output_Ghaziabad_plot.csv,Cafeteria,float64,99.17,0,1.0,1.0,1.0
+output_Ghaziabad_plot.csv,Staff Quarter,float64,95.99,0,1.0,1.0,1.0
+output_Ghaziabad_plot.csv,Hospital,float64,91.29,0,1.0,1.0,1.0
+output_Ghaziabad_plot.csv,Golf Course,float64,99.59,0,1.0,1.0,1.0
+output_Ghaziabad_villa.csv,location,str,0.0,30,,,
+output_Ghaziabad_villa.csv,area,int64,0.0,0,315.0,8000.0,1385.0
+output_Ghaziabad_villa.csv,price,int64,0.0,0,1050174.0,80000000.0,4585000.0
+output_Ghaziabad_villa.csv,price_currency,str,0.0,1,,,
+output_Ghaziabad_villa.csv,status,float64,52.16,0,0.0,1.0,1.0
+output_Ghaziabad_villa.csv,new/resale,int64,0.0,0,0.0,1.0,1.0
+output_Ghaziabad_villa.csv,price_negotiable,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_villa.csv,description,str,1.8,269,,,
+output_Ghaziabad_villa.csv,security_deposit,int64,0.0,0,1.0,1.0,1.0
+output_Ghaziabad_villa.csv,facing,str,30.94,8,,,
+output_Ghaziabad_villa.csv,furnished,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_villa.csv,age of property,int64,0.0,0,0.0,24.0,0.0
+output_Ghaziabad_villa.csv,Lift(s),int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_villa.csv,24 X 7 Security,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_villa.csv,Children's play area,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_villa.csv,Club House,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_villa.csv,Full Power Backup,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_villa.csv,Swimming Pool,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_villa.csv,Sports Facility,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_villa.csv,Jogging Track,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_villa.csv,Landscaped Gardens,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_villa.csv,Gymnasium,int64,0.0,0,0.0,1.0,0.0
+output_Ghaziabad_villa.csv,School,float64,87.77,0,1.0,1.0,1.0
+output_Ghaziabad_villa.csv,locality_score,float64,73.74,0,7.2,9.5,7.4
+output_Ghaziabad_villa.csv,project_score,float64,95.68,0,4.0,8.4,7.8
+output_Ghaziabad_villa.csv,builder_experience,float64,73.02,0,13.0,2022.0,123.0
+output_Ghaziabad_villa.csv,Intercom,float64,81.29,0,1.0,1.0,1.0
+output_Ghaziabad_villa.csv,Rain Water Harvesting,float64,91.37,0,1.0,1.0,1.0
+output_Ghaziabad_villa.csv,Car Parking,float64,88.49,0,1.0,1.0,1.0
+output_Ghaziabad_villa.csv,Vaastu Compliant,float64,92.09,0,1.0,1.0,1.0
+output_Ghaziabad_villa.csv,Indoor Games,float64,96.4,0,1.0,1.0,1.0
+output_Ghaziabad_villa.csv,Multipurpose Room,float64,98.2,0,1.0,1.0,1.0
+output_Ghaziabad_villa.csv,Staff Quarter,float64,96.76,0,1.0,1.0,1.0
+output_Ghaziabad_villa.csv,Golf Course,float64,99.28,0,1.0,1.0,1.0
+output_Ghaziabad_villa.csv,Cafeteria,float64,99.28,0,1.0,1.0,1.0
+output_Ghaziabad_villa.csv,Maintenance Staff,float64,98.56,0,1.0,1.0,1.0
+output_Ghaziabad_villa.csv,ATM,float64,96.4,0,1.0,1.0,1.0
+output_Ghaziabad_villa.csv,Shopping Mall,float64,96.76,0,1.0,1.0,1.0
+output_Ghaziabad_villa.csv,Hospital,float64,96.76,0,1.0,1.0,1.0
+output_Lucknow_builderfloor.csv,location,str,4.05,37,,,
+output_Lucknow_builderfloor.csv,area,float64,4.05,0,221.0,3266.0,1014.0
+output_Lucknow_builderfloor.csv,price,float64,4.05,0,800000.0,22500000.0,4000000.0
+output_Lucknow_builderfloor.csv,price_currency,str,4.05,1,,,
+output_Lucknow_builderfloor.csv,status,float64,91.89,0,0.0,1.0,0.5
+output_Lucknow_builderfloor.csv,new/resale,float64,4.05,0,0.0,1.0,1.0
+output_Lucknow_builderfloor.csv,price_negotiable,float64,4.05,0,0.0,1.0,1.0
+output_Lucknow_builderfloor.csv,description,str,5.41,68,,,
+output_Lucknow_builderfloor.csv,security_deposit,float64,4.05,0,1.0,1.0,1.0
+output_Lucknow_builderfloor.csv,facing,str,32.43,5,,,
+output_Lucknow_builderfloor.csv,furnished,float64,4.05,0,0.0,1.0,0.0
+output_Lucknow_builderfloor.csv,age of property,int64,0.0,0,0.0,21.0,1.0
+output_Lucknow_builderfloor.csv,Lift(s),float64,4.05,0,0.0,1.0,0.0
+output_Lucknow_builderfloor.csv,Full Power Backup,float64,4.05,0,0.0,1.0,1.0
+output_Lucknow_builderfloor.csv,24 X 7 Security,float64,4.05,0,0.0,1.0,1.0
+output_Lucknow_builderfloor.csv,Children's play area,float64,4.05,0,0.0,1.0,0.0
+output_Lucknow_builderfloor.csv,Club House,float64,4.05,0,0.0,1.0,0.0
+output_Lucknow_builderfloor.csv,Swimming Pool,float64,4.05,0,0.0,1.0,0.0
+output_Lucknow_builderfloor.csv,Jogging Track,float64,4.05,0,0.0,1.0,0.0
+output_Lucknow_builderfloor.csv,Landscaped Gardens,float64,4.05,0,0.0,1.0,0.0
+output_Lucknow_builderfloor.csv,Sports Facility,float64,4.05,0,0.0,1.0,0.0
+output_Lucknow_builderfloor.csv,Gymnasium,float64,4.05,0,0.0,1.0,0.0
+output_Lucknow_builderfloor.csv,locality_score,float64,58.11,0,6.3,10.0,8.4
+output_Lucknow_builderfloor.csv,project_score,float64,85.14,0,4.0,8.5,8.2
+output_Lucknow_builderfloor.csv,builder_experience,float64,63.51,0,15.0,123.0,123.0
+output_Lucknow_builderfloor.csv,Indoor Games,float64,89.19,0,1.0,1.0,1.0
+output_Lucknow_builderfloor.csv,Rain Water Harvesting,float64,74.32,0,1.0,1.0,1.0
+output_Lucknow_builderfloor.csv,Intercom,float64,82.43,0,1.0,1.0,1.0
+output_Lucknow_builderfloor.csv,Maintenance Staff,float64,86.49,0,1.0,1.0,1.0
+output_Lucknow_builderfloor.csv,Vaastu Compliant,float64,79.73,0,1.0,1.0,1.0
+output_Lucknow_builderfloor.csv,Car Parking,float64,41.89,0,1.0,1.0,1.0
+output_Lucknow_builderfloor.csv,Shopping Mall,float64,86.49,0,1.0,1.0,1.0
+output_Lucknow_builderfloor.csv,Multipurpose Room,float64,97.3,0,1.0,1.0,1.0
+output_Lucknow_builderfloor.csv,ATM,float64,90.54,0,1.0,1.0,1.0
+output_Lucknow_builderfloor.csv,Staff Quarter,float64,90.54,0,1.0,1.0,1.0
+output_Lucknow_builderfloor.csv,Hospital,float64,89.19,0,1.0,1.0,1.0
+output_Lucknow_builderfloor.csv,School,float64,89.19,0,1.0,1.0,1.0
+output_Lucknow_builderfloor.csv,Cafeteria,float64,95.95,0,1.0,1.0,1.0
+output_Lucknow_plot.csv,location,str,0.0,130,,,
+output_Lucknow_plot.csv,area,int64,0.0,0,40.0,16000.0,1000.0
+output_Lucknow_plot.csv,price,int64,0.0,0,10000.0,210000000.0,777500.0
+output_Lucknow_plot.csv,price_currency,str,0.0,1,,,
+output_Lucknow_plot.csv,status,float64,40.73,0,0.0,1.0,1.0
+output_Lucknow_plot.csv,new/resale,int64,0.0,0,0.0,1.0,1.0
+output_Lucknow_plot.csv,price_negotiable,int64,0.0,0,0.0,1.0,1.0
+output_Lucknow_plot.csv,description,str,4.13,1681,,,
+output_Lucknow_plot.csv,security_deposit,int64,0.0,0,1.0,1.0,1.0
+output_Lucknow_plot.csv,facing,str,11.31,7,,,
+output_Lucknow_plot.csv,furnished,int64,0.0,0,0.0,0.0,0.0
+output_Lucknow_plot.csv,age of property,int64,0.0,0,0.0,50.0,0.0
+output_Lucknow_plot.csv,Swimming Pool,int64,0.0,0,0.0,1.0,1.0
+output_Lucknow_plot.csv,Sports Facility,int64,0.0,0,0.0,1.0,0.0
+output_Lucknow_plot.csv,Lift(s),int64,0.0,0,0.0,1.0,0.0
+output_Lucknow_plot.csv,Club House,int64,0.0,0,0.0,1.0,0.0
+output_Lucknow_plot.csv,Full Power Backup,int64,0.0,0,0.0,1.0,1.0
+output_Lucknow_plot.csv,Gymnasium,int64,0.0,0,0.0,1.0,1.0
+output_Lucknow_plot.csv,Rain Water Harvesting,float64,64.22,0,1.0,1.0,1.0
+output_Lucknow_plot.csv,Maintenance Staff,float64,50.19,0,1.0,1.0,1.0
+output_Lucknow_plot.csv,Jogging Track,int64,0.0,0,0.0,1.0,1.0
+output_Lucknow_plot.csv,Car Parking,float64,19.81,0,1.0,1.0,1.0
+output_Lucknow_plot.csv,Vaastu Compliant,float64,63.2,0,1.0,1.0,1.0
+output_Lucknow_plot.csv,Children's play area,int64,0.0,0,0.0,1.0,1.0
+output_Lucknow_plot.csv,24 X 7 Security,int64,0.0,0,0.0,1.0,1.0
+output_Lucknow_plot.csv,Landscaped Gardens,int64,0.0,0,0.0,1.0,1.0
+output_Lucknow_plot.csv,locality_score,float64,81.89,0,6.2,10.0,6.3
+output_Lucknow_plot.csv,project_score,float64,97.33,0,6.6,8.9,8.2
+output_Lucknow_plot.csv,builder_experience,float64,95.15,0,17.0,2022.0,123.0
+output_Lucknow_plot.csv,School,float64,45.15,0,1.0,1.0,1.0
+output_Lucknow_plot.csv,ATM,float64,46.75,0,1.0,1.0,1.0
+output_Lucknow_plot.csv,Shopping Mall,float64,45.44,0,1.0,1.0,1.0
+output_Lucknow_plot.csv,Multipurpose Room,float64,61.6,0,1.0,1.0,1.0
+output_Lucknow_plot.csv,Intercom,float64,68.69,0,1.0,1.0,1.0
+output_Lucknow_plot.csv,Staff Quarter,float64,50.34,0,1.0,1.0,1.0
+output_Lucknow_plot.csv,Hospital,float64,45.68,0,1.0,1.0,1.0
+output_Lucknow_plot.csv,Indoor Games,float64,67.91,0,1.0,1.0,1.0
+output_Lucknow_plot.csv,Cafeteria,float64,73.54,0,1.0,1.0,1.0
+output_Lucknow_plot.csv,Golf Course,float64,80.15,0,1.0,1.0,1.0
+output_Lucknow_villa.csv,location,str,4.44,48,,,
+output_Lucknow_villa.csv,area,float64,4.44,0,500.0,5100.0,1350.0
+output_Lucknow_villa.csv,price,float64,4.44,0,1600000.0,51150000.0,5557300.0
+output_Lucknow_villa.csv,price_currency,str,4.44,1,,,
+output_Lucknow_villa.csv,status,float64,61.67,0,0.0,1.0,1.0
+output_Lucknow_villa.csv,new/resale,float64,4.44,0,0.0,1.0,1.0
+output_Lucknow_villa.csv,price_negotiable,float64,4.44,0,0.0,1.0,0.0
+output_Lucknow_villa.csv,description,str,8.89,163,,,
+output_Lucknow_villa.csv,security_deposit,float64,4.44,0,1.0,1.0,1.0
+output_Lucknow_villa.csv,facing,str,56.11,5,,,
+output_Lucknow_villa.csv,furnished,float64,4.44,0,0.0,1.0,0.0
+output_Lucknow_villa.csv,age of property,int64,0.0,0,0.0,6.0,0.0
+output_Lucknow_villa.csv,locality_score,float64,76.11,0,6.3,9.1,8.1
+output_Lucknow_villa.csv,project_score,float64,100.0,0,,,
+output_Lucknow_villa.csv,builder_experience,float64,78.89,0,15.0,2022.0,123.0
+output_Lucknow_villa.csv,Gymnasium,float64,4.44,0,0.0,1.0,0.0
+output_Lucknow_villa.csv,24 X 7 Security,float64,4.44,0,0.0,1.0,0.0
+output_Lucknow_villa.csv,Swimming Pool,float64,4.44,0,0.0,1.0,0.0
+output_Lucknow_villa.csv,Lift(s),float64,4.44,0,0.0,1.0,0.0
+output_Lucknow_villa.csv,Jogging Track,float64,4.44,0,0.0,1.0,0.0
+output_Lucknow_villa.csv,Club House,float64,4.44,0,0.0,1.0,0.0
+output_Lucknow_villa.csv,Landscaped Gardens,float64,4.44,0,0.0,1.0,0.0
+output_Lucknow_villa.csv,Rain Water Harvesting,float64,88.33,0,1.0,1.0,1.0
+output_Lucknow_villa.csv,Sports Facility,float64,4.44,0,0.0,1.0,0.0
+output_Lucknow_villa.csv,Car Parking,float64,66.11,0,1.0,1.0,1.0
+output_Lucknow_villa.csv,Children's play area,float64,4.44,0,0.0,1.0,0.0
+output_Lucknow_villa.csv,Full Power Backup,float64,4.44,0,0.0,1.0,0.0
+output_Lucknow_villa.csv,Vaastu Compliant,float64,74.44,0,1.0,1.0,1.0
+output_Lucknow_villa.csv,Indoor Games,float64,93.89,0,1.0,1.0,1.0
+output_Lucknow_villa.csv,Intercom,float64,76.11,0,1.0,1.0,1.0
+output_Lucknow_villa.csv,Maintenance Staff,float64,90.56,0,1.0,1.0,1.0
+output_Lucknow_villa.csv,Shopping Mall,float64,83.89,0,1.0,1.0,1.0
+output_Lucknow_villa.csv,Cafeteria,float64,97.22,0,1.0,1.0,1.0
+output_Lucknow_villa.csv,ATM,float64,88.33,0,1.0,1.0,1.0
+output_Lucknow_villa.csv,Multipurpose Room,float64,97.22,0,1.0,1.0,1.0
+output_Lucknow_villa.csv,School,float64,87.78,0,1.0,1.0,1.0
+output_Lucknow_villa.csv,Hospital,float64,91.67,0,1.0,1.0,1.0
+output_Lucknow_villa.csv,Golf Course,float64,98.89,0,1.0,1.0,1.0
+output_Lucknow_villa.csv,Staff Quarter,float64,95.0,0,1.0,1.0,1.0
+output_Pune_builderfloor.csv,location,str,0.0,49,,,
+output_Pune_builderfloor.csv,area,int64,0.0,0,160.0,7880.0,947.0
+output_Pune_builderfloor.csv,price,int64,0.0,0,1000000.0,120000000.0,5800000.0
+output_Pune_builderfloor.csv,price_currency,str,0.0,1,,,
+output_Pune_builderfloor.csv,status,float64,66.67,0,0.0,1.0,1.0
+output_Pune_builderfloor.csv,new/resale,int64,0.0,0,0.0,1.0,1.0
+output_Pune_builderfloor.csv,price_negotiable,int64,0.0,0,0.0,1.0,0.0
+output_Pune_builderfloor.csv,description,str,4.07,118,,,
+output_Pune_builderfloor.csv,security_deposit,int64,0.0,0,1.0,1.0,1.0
+output_Pune_builderfloor.csv,facing,str,38.21,6,,,
+output_Pune_builderfloor.csv,furnished,int64,0.0,0,0.0,1.0,0.0
+output_Pune_builderfloor.csv,age of property,int64,0.0,0,0.0,122.0,0.0
+output_Pune_builderfloor.csv,Lift(s),int64,0.0,0,0.0,1.0,1.0
+output_Pune_builderfloor.csv,Full Power Backup,int64,0.0,0,0.0,1.0,1.0
+output_Pune_builderfloor.csv,24 X 7 Security,int64,0.0,0,0.0,1.0,0.0
+output_Pune_builderfloor.csv,Children's play area,int64,0.0,0,0.0,1.0,1.0
+output_Pune_builderfloor.csv,Club House,int64,0.0,0,0.0,1.0,1.0
+output_Pune_builderfloor.csv,Gymnasium,int64,0.0,0,0.0,1.0,1.0
+output_Pune_builderfloor.csv,Swimming Pool,int64,0.0,0,0.0,1.0,0.0
+output_Pune_builderfloor.csv,Sports Facility,int64,0.0,0,0.0,1.0,0.0
+output_Pune_builderfloor.csv,Jogging Track,int64,0.0,0,0.0,1.0,0.0
+output_Pune_builderfloor.csv,Landscaped Gardens,int64,0.0,0,0.0,1.0,0.0
+output_Pune_builderfloor.csv,locality_score,float64,26.02,0,7.4,9.7,8.8
+output_Pune_builderfloor.csv,project_score,float64,73.98,0,6.9,8.6,8.0
+output_Pune_builderfloor.csv,builder_experience,float64,51.22,0,17.0,2022.0,89.5
+output_Pune_builderfloor.csv,Rain Water Harvesting,float64,66.67,0,1.0,1.0,1.0
+output_Pune_builderfloor.csv,Intercom,float64,59.35,0,1.0,1.0,1.0
+output_Pune_builderfloor.csv,Car Parking,float64,56.1,0,1.0,1.0,1.0
+output_Pune_builderfloor.csv,Vaastu Compliant,float64,82.11,0,1.0,1.0,1.0
+output_Pune_builderfloor.csv,Indoor Games,float64,75.61,0,1.0,1.0,1.0
+output_Pune_builderfloor.csv,Multipurpose Room,float64,76.42,0,1.0,1.0,1.0
+output_Pune_builderfloor.csv,Staff Quarter,float64,85.37,0,1.0,1.0,1.0
+output_Pune_builderfloor.csv,Cafeteria,float64,90.24,0,1.0,1.0,1.0
+output_Pune_builderfloor.csv,School,float64,95.93,0,1.0,1.0,1.0
+output_Pune_builderfloor.csv,Maintenance Staff,float64,91.06,0,1.0,1.0,1.0
+output_Pune_builderfloor.csv,Shopping Mall,float64,91.87,0,1.0,1.0,1.0
+output_Pune_builderfloor.csv,Golf Course,float64,95.93,0,1.0,1.0,1.0
+output_Pune_builderfloor.csv,ATM,float64,95.93,0,1.0,1.0,1.0
+output_Pune_builderfloor.csv,Hospital,float64,97.56,0,1.0,1.0,1.0
+output_Pune_plot.csv,location,str,0.0,193,,,
+output_Pune_plot.csv,area,int64,0.0,0,42.0,837696.0,1000.0
+output_Pune_plot.csv,price,int64,0.0,0,50200.0,339768000.0,1200000.0
+output_Pune_plot.csv,price_currency,str,0.0,1,,,
+output_Pune_plot.csv,status,float64,28.72,0,0.0,1.0,1.0
+output_Pune_plot.csv,new/resale,int64,0.0,0,0.0,1.0,1.0
+output_Pune_plot.csv,price_negotiable,int64,0.0,0,0.0,1.0,0.0
+output_Pune_plot.csv,description,str,12.78,1414,,,
+output_Pune_plot.csv,security_deposit,int64,0.0,0,1.0,1.0,1.0
+output_Pune_plot.csv,facing,str,12.41,8,,,
+output_Pune_plot.csv,furnished,int64,0.0,0,0.0,0.0,0.0
+output_Pune_plot.csv,age of property,int64,0.0,0,0.0,122.0,0.0
+output_Pune_plot.csv,Lift(s),int64,0.0,0,0.0,1.0,0.0
+output_Pune_plot.csv,Full Power Backup,int64,0.0,0,0.0,1.0,0.0
+output_Pune_plot.csv,24 X 7 Security,int64,0.0,0,0.0,1.0,0.0
+output_Pune_plot.csv,Children's play area,int64,0.0,0,0.0,1.0,0.0
+output_Pune_plot.csv,Club House,int64,0.0,0,0.0,1.0,0.0
+output_Pune_plot.csv,Gymnasium,int64,0.0,0,0.0,1.0,0.0
+output_Pune_plot.csv,Swimming Pool,int64,0.0,0,0.0,1.0,0.0
+output_Pune_plot.csv,Sports Facility,int64,0.0,0,0.0,1.0,0.0
+output_Pune_plot.csv,Jogging Track,int64,0.0,0,0.0,1.0,0.0
+output_Pune_plot.csv,Landscaped Gardens,int64,0.0,0,0.0,1.0,0.0
+output_Pune_plot.csv,locality_score,float64,62.41,0,4.4,9.7,8.0
+output_Pune_plot.csv,project_score,float64,98.34,0,4.0,8.5,7.4
+output_Pune_plot.csv,builder_experience,float64,94.6,0,11.0,2022.0,32.0
+output_Pune_plot.csv,Multipurpose Room,float64,98.24,0,1.0,1.0,1.0
+output_Pune_plot.csv,Intercom,float64,98.13,0,1.0,1.0,1.0
+output_Pune_plot.csv,Maintenance Staff,float64,98.4,0,1.0,1.0,1.0
+output_Pune_plot.csv,Car Parking,float64,93.96,0,1.0,1.0,1.0
+output_Pune_plot.csv,Rain Water Harvesting,float64,97.33,0,1.0,1.0,1.0
+output_Pune_plot.csv,Vaastu Compliant,float64,76.36,0,1.0,1.0,1.0
+output_Pune_plot.csv,Indoor Games,float64,95.4,0,1.0,1.0,1.0
+output_Pune_plot.csv,Golf Course,float64,99.63,0,1.0,1.0,1.0
+output_Pune_plot.csv,Cafeteria,float64,97.97,0,1.0,1.0,1.0
+output_Pune_plot.csv,ATM,float64,97.54,0,1.0,1.0,1.0
+output_Pune_plot.csv,Hospital,float64,87.91,0,1.0,1.0,1.0
+output_Pune_plot.csv,School,float64,77.49,0,1.0,1.0,1.0
+output_Pune_plot.csv,Shopping Mall,float64,98.61,0,1.0,1.0,1.0
+output_Pune_plot.csv,Staff Quarter,float64,98.93,0,1.0,1.0,1.0
+output_Pune_villa.csv,location,str,0.0,103,,,
+output_Pune_villa.csv,area,int64,0.0,0,522.0,11500.0,2275.0
+output_Pune_villa.csv,price,int64,0.0,0,1800000.0,240000000.0,18000000.0
+output_Pune_villa.csv,price_currency,str,0.0,1,,,
+output_Pune_villa.csv,status,float64,75.84,0,0.0,1.0,1.0
+output_Pune_villa.csv,new/resale,int64,0.0,0,0.0,1.0,0.0
+output_Pune_villa.csv,price_negotiable,int64,0.0,0,0.0,1.0,0.0
+output_Pune_villa.csv,description,str,0.92,910,,,
+output_Pune_villa.csv,security_deposit,int64,0.0,0,1.0,1.0,1.0
+output_Pune_villa.csv,facing,str,22.31,8,,,
+output_Pune_villa.csv,furnished,int64,0.0,0,0.0,1.0,0.0
+output_Pune_villa.csv,age of property,int64,0.0,0,0.0,122.0,0.0
+output_Pune_villa.csv,Lift(s),int64,0.0,0,0.0,1.0,0.0
+output_Pune_villa.csv,Full Power Backup,int64,0.0,0,0.0,1.0,1.0
+output_Pune_villa.csv,24 X 7 Security,int64,0.0,0,0.0,1.0,0.0
+output_Pune_villa.csv,Children's play area,int64,0.0,0,0.0,1.0,1.0
+output_Pune_villa.csv,Club House,int64,0.0,0,0.0,1.0,0.0
+output_Pune_villa.csv,Gymnasium,int64,0.0,0,0.0,1.0,0.0
+output_Pune_villa.csv,Swimming Pool,int64,0.0,0,0.0,1.0,0.0
+output_Pune_villa.csv,Sports Facility,int64,0.0,0,0.0,1.0,0.0
+output_Pune_villa.csv,Jogging Track,int64,0.0,0,0.0,1.0,0.0
+output_Pune_villa.csv,Landscaped Gardens,int64,0.0,0,0.0,1.0,0.0
+output_Pune_villa.csv,locality_score,float64,26.92,0,5.3,9.7,8.0
+output_Pune_villa.csv,project_score,float64,74.72,0,6.7,8.8,8.1
+output_Pune_villa.csv,builder_experience,float64,57.32,0,12.0,2022.0,48.0
+output_Pune_villa.csv,Rain Water Harvesting,float64,73.29,0,1.0,1.0,1.0
+output_Pune_villa.csv,Car Parking,float64,68.17,0,1.0,1.0,1.0
+output_Pune_villa.csv,Vaastu Compliant,float64,84.65,0,1.0,1.0,1.0
+output_Pune_villa.csv,Golf Course,float64,96.62,0,1.0,1.0,1.0
+output_Pune_villa.csv,Intercom,float64,54.15,0,1.0,1.0,1.0
+output_Pune_villa.csv,Indoor Games,float64,83.01,0,1.0,1.0,1.0
+output_Pune_villa.csv,Maintenance Staff,float64,89.46,0,1.0,1.0,1.0
+output_Pune_villa.csv,Multipurpose Room,float64,86.08,0,1.0,1.0,1.0
+output_Pune_villa.csv,ATM,float64,95.09,0,1.0,1.0,1.0
+output_Pune_villa.csv,Cafeteria,float64,92.73,0,1.0,1.0,1.0
+output_Pune_villa.csv,Staff Quarter,float64,93.55,0,1.0,1.0,1.0
+output_Pune_villa.csv,Hospital,float64,97.54,0,1.0,1.0,1.0
+output_Pune_villa.csv,School,float64,97.34,0,1.0,1.0,1.0
+output_Pune_villa.csv,Shopping Mall,float64,96.11,0,1.0,1.0,1.0
+RE_Combined_Data.xlsx,PROP_ID,str,0.0,33931,,,
+RE_Combined_Data.xlsx,PROPERTY_TYPE,str,0.0,8,,,
+RE_Combined_Data.xlsx,CITY,str,0.0,17,,,
+RE_Combined_Data.xlsx,ADDRESS,str,72.02,192,,,
+RE_Combined_Data.xlsx,RESALE,str,0.0,2,,,
+RE_Combined_Data.xlsx,OWNTYPE,object,0.0,5,,,
+RE_Combined_Data.xlsx,BEDROOM_NUM,int64,0.0,0,1.0,10.0,3.0
+RE_Combined_Data.xlsx,BATHROOM_NUM,float64,72.02,0,1.0,8.0,3.0
+RE_Combined_Data.xlsx,BALCONY_NUM,int64,0.0,0,0.0,4.0,1.0
+RE_Combined_Data.xlsx,PRICE_PER_UNIT_AREA,int64,0.0,0,0.0,600000000.0,8596.0
+RE_Combined_Data.xlsx,FURNISH,str,0.0,3,,,
+RE_Combined_Data.xlsx,FACING,str,0.0,9,,,
+RE_Combined_Data.xlsx,AGE,int64,0.0,0,0.0,6.0,3.0
+RE_Combined_Data.xlsx,FLOOR_NUM,int64,0.0,0,0.0,77.0,4.0
+RE_Combined_Data.xlsx,TOTAL_FLOOR,int64,0.0,0,1.0,117.0,14.0
+RE_Combined_Data.xlsx,PROP_NAME,str,0.0,8518,,,
+RE_Combined_Data.xlsx,MIN_PRICE,float64,24.6,0,0.0,2147483647.0,13032000.0
+RE_Combined_Data.xlsx,MAX_PRICE,float64,24.6,0,0.0,2147483647.0,13500000.0
+RE_Combined_Data.xlsx,PRICE_SQFT,int64,0.0,0,0.0,600000000.0,8596.0
+RE_Combined_Data.xlsx,BUILDING_ID,float64,24.6,0,0.0,1144346.0,42234.0
+RE_Combined_Data.xlsx,CARPET_SQFT,float64,72.02,0,162.000000000016,22500.0000000022,1650.0
+RE_Combined_Data.xlsx,SUPERBUILTUP_SQFT,float64,47.42,0,130.0,26602.0,1600.0
+RE_Combined_Data.xlsx,BROKERAGE,float64,72.02,0,0.0,73100000.0,1.0
+RE_Combined_Data.xlsx,MIN_AREA_SQFT,float64,24.6,0,1.393545,710624.3373,138.889985
+RE_Combined_Data.xlsx,MAX_AREA_SQFT,float64,24.6,0,1.393545,710624.3373,139.3545
+RE_Combined_Data.xlsx,EXPIRY_DATE,datetime64[us],24.6,198,,,
+RE_Combined_Data.xlsx,PRICE,float64,0.0,0,1.0,99000.0,28.0
+RE_Combined_Data.xlsx,CLASS_LABEL,str,24.6,3,,,
+RE_Combined_Data.xlsx,TOTAL_LANDMARK_COUNT,int64,0.0,0,1.0,50.0,15.0
+RE_Combined_Data.xlsx,CONTACT_COMPANY_NAME,str,72.02,875,,,
+real_estate_dataset.json,real_estate_listings,object,0.0,1,,,

@@ -1,0 +1,2 @@
+total_rows,total_columns,states,districts,cities,localities,duplicate_counts,min_price,max_price,median_price,min_area,max_area,median_area
+303270,43,23,0,302,650,11561,1.0,999900000.0,80.37,40.0,837696.0,5296.0

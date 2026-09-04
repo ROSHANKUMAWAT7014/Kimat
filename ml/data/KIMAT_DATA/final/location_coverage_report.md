@@ -1,0 +1,37 @@
+# KIMAT Location Coverage Report
+
+## Overall Statistics
+- **Total Unique States**: 24
+- **Total Unique Districts**: 306
+- **Total Unique Cities/Towns**: 306
+- **Total Unique Areas/Localities**: 13475
+- **Total Unique Pincodes**: 0
+- **Total Mapped Records**: 18739
+
+## Coverage by State
+| State | Districts | Cities | Localities |
+|-------|-----------|--------|------------|
+| Unknown State | 28 | 28 | 11922 |
+| Maharashtra | 3 | 3 | 1135 |
+| Uttar Pradesh | 33 | 33 | 350 |
+| Chandigarh | 1 | 1 | 124 |
+| Tamil Nadu | 31 | 31 | 58 |
+| Karnataka | 29 | 29 | 38 |
+| Rajasthan | 17 | 17 | 23 |
+| Maharastra | 22 | 22 | 22 |
+| Kerala | 15 | 15 | 21 |
+| Haryana | 20 | 20 | 20 |
+| Andhra Pradesh | 19 | 19 | 19 |
+| Madhya Pradesh | 16 | 16 | 16 |
+| West Bengal | 13 | 13 | 13 |
+| Telangana | 12 | 12 | 12 |
+| Delhi | 1 | 1 | 11 |
+| Punjab | 11 | 11 | 11 |
+| Orissa | 10 | 10 | 10 |
+| Uttarakhand | 10 | 10 | 10 |
+| Bihar | 9 | 9 | 9 |
+| Chattisgarh | 6 | 6 | 6 |
+| Himachal_Pradesh | 6 | 6 | 6 |
+| Jharkhand | 5 | 5 | 5 |
+| Assam | 2 | 2 | 2 |
+| Goa | 1 | 1 | 1 |

@@ -1,0 +1,515 @@
+dataset,source_column,proposed_mapping,status
+up.csv,plot_type,property_type,heuristic_mapped
+up.csv,city,city,heuristic_mapped
+up.csv,price,total_price,heuristic_mapped
+up.csv,Unit,UNKNOWN,needs_review
+up.csv,Rupee_per_area,builtup_area_sqft,heuristic_mapped
+up.csv,Area,builtup_area_sqft,heuristic_mapped
+up.csv,state,state,heuristic_mapped
+real_estate_dataset.csv,url,UNKNOWN,needs_review
+real_estate_dataset.csv,beds,UNKNOWN,needs_review
+real_estate_dataset.csv,city,city,heuristic_mapped
+real_estate_dataset.csv,date,UNKNOWN,needs_review
+real_estate_dataset.csv,size,builtup_area_sqft,heuristic_mapped
+real_estate_dataset.csv,type,property_type,heuristic_mapped
+real_estate_dataset.csv,baths,bathrooms,heuristic_mapped
+real_estate_dataset.csv,price,total_price,heuristic_mapped
+real_estate_dataset.csv,neighborhood,locality,heuristic_mapped
+output_Chandigarh_builderfloor.csv,location,locality,heuristic_mapped
+output_Chandigarh_builderfloor.csv,area,builtup_area_sqft,heuristic_mapped
+output_Chandigarh_builderfloor.csv,price,total_price,heuristic_mapped
+output_Chandigarh_builderfloor.csv,price_currency,total_price,heuristic_mapped
+output_Chandigarh_builderfloor.csv,status,property_status,heuristic_mapped
+output_Chandigarh_builderfloor.csv,new/resale,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,price_negotiable,total_price,heuristic_mapped
+output_Chandigarh_builderfloor.csv,description,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,security_deposit,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,facing,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,furnished,furnished,heuristic_mapped
+output_Chandigarh_builderfloor.csv,age of property,property_age,heuristic_mapped
+output_Chandigarh_builderfloor.csv,Lift(s),UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,Full Power Backup,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,24 X 7 Security,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,Children's play area,builtup_area_sqft,heuristic_mapped
+output_Chandigarh_builderfloor.csv,Club House,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,Gymnasium,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,Swimming Pool,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,Sports Facility,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,Jogging Track,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,Landscaped Gardens,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,locality_score,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,project_score,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,builder_experience,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,Intercom,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,Indoor Games,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,ATM,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,Maintenance Staff,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,Staff Quarter,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,Multipurpose Room,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,Car Parking,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,Hospital,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,School,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,Shopping Mall,pincode,heuristic_mapped
+output_Chandigarh_builderfloor.csv,Vaastu Compliant,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,Cafeteria,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,Rain Water Harvesting,UNKNOWN,needs_review
+output_Chandigarh_builderfloor.csv,Golf Course,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,location,locality,heuristic_mapped
+output_Chandigarh_plot.csv,area,builtup_area_sqft,heuristic_mapped
+output_Chandigarh_plot.csv,price,total_price,heuristic_mapped
+output_Chandigarh_plot.csv,price_currency,total_price,heuristic_mapped
+output_Chandigarh_plot.csv,status,property_status,heuristic_mapped
+output_Chandigarh_plot.csv,new/resale,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,price_negotiable,total_price,heuristic_mapped
+output_Chandigarh_plot.csv,description,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,security_deposit,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,facing,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,furnished,furnished,heuristic_mapped
+output_Chandigarh_plot.csv,age of property,property_age,heuristic_mapped
+output_Chandigarh_plot.csv,Lift(s),UNKNOWN,needs_review
+output_Chandigarh_plot.csv,Full Power Backup,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,24 X 7 Security,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,Children's play area,builtup_area_sqft,heuristic_mapped
+output_Chandigarh_plot.csv,Club House,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,Gymnasium,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,Swimming Pool,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,Sports Facility,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,Jogging Track,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,Landscaped Gardens,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,locality_score,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,project_score,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,builder_experience,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,Hospital,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,Multipurpose Room,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,Rain Water Harvesting,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,Vaastu Compliant,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,ATM,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,Car Parking,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,Intercom,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,Maintenance Staff,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,School,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,Shopping Mall,pincode,heuristic_mapped
+output_Chandigarh_plot.csv,Staff Quarter,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,Golf Course,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,Cafeteria,UNKNOWN,needs_review
+output_Chandigarh_plot.csv,Indoor Games,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,location,locality,heuristic_mapped
+output_Chandigarh_villa.csv,area,builtup_area_sqft,heuristic_mapped
+output_Chandigarh_villa.csv,price,total_price,heuristic_mapped
+output_Chandigarh_villa.csv,price_currency,total_price,heuristic_mapped
+output_Chandigarh_villa.csv,status,property_status,heuristic_mapped
+output_Chandigarh_villa.csv,new/resale,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,price_negotiable,total_price,heuristic_mapped
+output_Chandigarh_villa.csv,description,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,security_deposit,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,facing,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,furnished,furnished,heuristic_mapped
+output_Chandigarh_villa.csv,age of property,property_age,heuristic_mapped
+output_Chandigarh_villa.csv,24 X 7 Security,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Full Power Backup,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Jogging Track,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Landscaped Gardens,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Gymnasium,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Lift(s),UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Intercom,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Sports Facility,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Swimming Pool,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Club House,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Children's play area,builtup_area_sqft,heuristic_mapped
+output_Chandigarh_villa.csv,locality_score,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,project_score,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,builder_experience,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Car Parking,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Shopping Mall,pincode,heuristic_mapped
+output_Chandigarh_villa.csv,Indoor Games,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Maintenance Staff,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Multipurpose Room,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Rain Water Harvesting,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Cafeteria,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Vaastu Compliant,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,ATM,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Golf Course,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Staff Quarter,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,Hospital,UNKNOWN,needs_review
+output_Chandigarh_villa.csv,School,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,location,locality,heuristic_mapped
+output_Ghaziabad_builderfloor.csv,area,builtup_area_sqft,heuristic_mapped
+output_Ghaziabad_builderfloor.csv,price,total_price,heuristic_mapped
+output_Ghaziabad_builderfloor.csv,price_currency,total_price,heuristic_mapped
+output_Ghaziabad_builderfloor.csv,status,property_status,heuristic_mapped
+output_Ghaziabad_builderfloor.csv,new/resale,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,price_negotiable,total_price,heuristic_mapped
+output_Ghaziabad_builderfloor.csv,description,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,security_deposit,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,facing,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,furnished,furnished,heuristic_mapped
+output_Ghaziabad_builderfloor.csv,age of property,property_age,heuristic_mapped
+output_Ghaziabad_builderfloor.csv,Lift(s),UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,Full Power Backup,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,24 X 7 Security,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,Children's play area,builtup_area_sqft,heuristic_mapped
+output_Ghaziabad_builderfloor.csv,Club House,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,Gymnasium,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,Swimming Pool,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,Sports Facility,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,Jogging Track,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,Landscaped Gardens,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,locality_score,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,project_score,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,builder_experience,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,Car Parking,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,Rain Water Harvesting,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,Intercom,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,Maintenance Staff,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,Indoor Games,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,Vaastu Compliant,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,Multipurpose Room,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,ATM,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,Golf Course,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,Staff Quarter,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,Hospital,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,School,UNKNOWN,needs_review
+output_Ghaziabad_builderfloor.csv,Shopping Mall,pincode,heuristic_mapped
+output_Ghaziabad_builderfloor.csv,Cafeteria,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,location,locality,heuristic_mapped
+output_Ghaziabad_plot.csv,area,builtup_area_sqft,heuristic_mapped
+output_Ghaziabad_plot.csv,price,total_price,heuristic_mapped
+output_Ghaziabad_plot.csv,price_currency,total_price,heuristic_mapped
+output_Ghaziabad_plot.csv,status,property_status,heuristic_mapped
+output_Ghaziabad_plot.csv,new/resale,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,price_negotiable,total_price,heuristic_mapped
+output_Ghaziabad_plot.csv,description,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,security_deposit,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,facing,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,furnished,furnished,heuristic_mapped
+output_Ghaziabad_plot.csv,age of property,property_age,heuristic_mapped
+output_Ghaziabad_plot.csv,Gymnasium,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,Children's play area,builtup_area_sqft,heuristic_mapped
+output_Ghaziabad_plot.csv,Club House,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,Lift(s),UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,Swimming Pool,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,Landscaped Gardens,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,Rain Water Harvesting,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,Maintenance Staff,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,Jogging Track,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,Sports Facility,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,Car Parking,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,24 X 7 Security,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,Full Power Backup,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,locality_score,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,project_score,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,builder_experience,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,Indoor Games,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,ATM,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,Intercom,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,School,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,Shopping Mall,pincode,heuristic_mapped
+output_Ghaziabad_plot.csv,Multipurpose Room,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,Vaastu Compliant,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,Cafeteria,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,Staff Quarter,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,Hospital,UNKNOWN,needs_review
+output_Ghaziabad_plot.csv,Golf Course,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,location,locality,heuristic_mapped
+output_Ghaziabad_villa.csv,area,builtup_area_sqft,heuristic_mapped
+output_Ghaziabad_villa.csv,price,total_price,heuristic_mapped
+output_Ghaziabad_villa.csv,price_currency,total_price,heuristic_mapped
+output_Ghaziabad_villa.csv,status,property_status,heuristic_mapped
+output_Ghaziabad_villa.csv,new/resale,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,price_negotiable,total_price,heuristic_mapped
+output_Ghaziabad_villa.csv,description,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,security_deposit,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,facing,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,furnished,furnished,heuristic_mapped
+output_Ghaziabad_villa.csv,age of property,property_age,heuristic_mapped
+output_Ghaziabad_villa.csv,Lift(s),UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,24 X 7 Security,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,Children's play area,builtup_area_sqft,heuristic_mapped
+output_Ghaziabad_villa.csv,Club House,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,Full Power Backup,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,Swimming Pool,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,Sports Facility,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,Jogging Track,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,Landscaped Gardens,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,Gymnasium,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,School,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,locality_score,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,project_score,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,builder_experience,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,Intercom,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,Rain Water Harvesting,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,Car Parking,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,Vaastu Compliant,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,Indoor Games,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,Multipurpose Room,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,Staff Quarter,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,Golf Course,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,Cafeteria,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,Maintenance Staff,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,ATM,UNKNOWN,needs_review
+output_Ghaziabad_villa.csv,Shopping Mall,pincode,heuristic_mapped
+output_Ghaziabad_villa.csv,Hospital,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,location,locality,heuristic_mapped
+output_Lucknow_builderfloor.csv,area,builtup_area_sqft,heuristic_mapped
+output_Lucknow_builderfloor.csv,price,total_price,heuristic_mapped
+output_Lucknow_builderfloor.csv,price_currency,total_price,heuristic_mapped
+output_Lucknow_builderfloor.csv,status,property_status,heuristic_mapped
+output_Lucknow_builderfloor.csv,new/resale,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,price_negotiable,total_price,heuristic_mapped
+output_Lucknow_builderfloor.csv,description,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,security_deposit,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,facing,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,furnished,furnished,heuristic_mapped
+output_Lucknow_builderfloor.csv,age of property,property_age,heuristic_mapped
+output_Lucknow_builderfloor.csv,Lift(s),UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,Full Power Backup,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,24 X 7 Security,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,Children's play area,builtup_area_sqft,heuristic_mapped
+output_Lucknow_builderfloor.csv,Club House,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,Swimming Pool,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,Jogging Track,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,Landscaped Gardens,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,Sports Facility,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,Gymnasium,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,locality_score,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,project_score,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,builder_experience,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,Indoor Games,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,Rain Water Harvesting,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,Intercom,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,Maintenance Staff,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,Vaastu Compliant,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,Car Parking,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,Shopping Mall,pincode,heuristic_mapped
+output_Lucknow_builderfloor.csv,Multipurpose Room,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,ATM,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,Staff Quarter,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,Hospital,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,School,UNKNOWN,needs_review
+output_Lucknow_builderfloor.csv,Cafeteria,UNKNOWN,needs_review
+output_Lucknow_plot.csv,location,locality,heuristic_mapped
+output_Lucknow_plot.csv,area,builtup_area_sqft,heuristic_mapped
+output_Lucknow_plot.csv,price,total_price,heuristic_mapped
+output_Lucknow_plot.csv,price_currency,total_price,heuristic_mapped
+output_Lucknow_plot.csv,status,property_status,heuristic_mapped
+output_Lucknow_plot.csv,new/resale,UNKNOWN,needs_review
+output_Lucknow_plot.csv,price_negotiable,total_price,heuristic_mapped
+output_Lucknow_plot.csv,description,UNKNOWN,needs_review
+output_Lucknow_plot.csv,security_deposit,UNKNOWN,needs_review
+output_Lucknow_plot.csv,facing,UNKNOWN,needs_review
+output_Lucknow_plot.csv,furnished,furnished,heuristic_mapped
+output_Lucknow_plot.csv,age of property,property_age,heuristic_mapped
+output_Lucknow_plot.csv,Swimming Pool,UNKNOWN,needs_review
+output_Lucknow_plot.csv,Sports Facility,UNKNOWN,needs_review
+output_Lucknow_plot.csv,Lift(s),UNKNOWN,needs_review
+output_Lucknow_plot.csv,Club House,UNKNOWN,needs_review
+output_Lucknow_plot.csv,Full Power Backup,UNKNOWN,needs_review
+output_Lucknow_plot.csv,Gymnasium,UNKNOWN,needs_review
+output_Lucknow_plot.csv,Rain Water Harvesting,UNKNOWN,needs_review
+output_Lucknow_plot.csv,Maintenance Staff,UNKNOWN,needs_review
+output_Lucknow_plot.csv,Jogging Track,UNKNOWN,needs_review
+output_Lucknow_plot.csv,Car Parking,UNKNOWN,needs_review
+output_Lucknow_plot.csv,Vaastu Compliant,UNKNOWN,needs_review
+output_Lucknow_plot.csv,Children's play area,builtup_area_sqft,heuristic_mapped
+output_Lucknow_plot.csv,24 X 7 Security,UNKNOWN,needs_review
+output_Lucknow_plot.csv,Landscaped Gardens,UNKNOWN,needs_review
+output_Lucknow_plot.csv,locality_score,UNKNOWN,needs_review
+output_Lucknow_plot.csv,project_score,UNKNOWN,needs_review
+output_Lucknow_plot.csv,builder_experience,UNKNOWN,needs_review
+output_Lucknow_plot.csv,School,UNKNOWN,needs_review
+output_Lucknow_plot.csv,ATM,UNKNOWN,needs_review
+output_Lucknow_plot.csv,Shopping Mall,pincode,heuristic_mapped
+output_Lucknow_plot.csv,Multipurpose Room,UNKNOWN,needs_review
+output_Lucknow_plot.csv,Intercom,UNKNOWN,needs_review
+output_Lucknow_plot.csv,Staff Quarter,UNKNOWN,needs_review
+output_Lucknow_plot.csv,Hospital,UNKNOWN,needs_review
+output_Lucknow_plot.csv,Indoor Games,UNKNOWN,needs_review
+output_Lucknow_plot.csv,Cafeteria,UNKNOWN,needs_review
+output_Lucknow_plot.csv,Golf Course,UNKNOWN,needs_review
+output_Lucknow_villa.csv,location,locality,heuristic_mapped
+output_Lucknow_villa.csv,area,builtup_area_sqft,heuristic_mapped
+output_Lucknow_villa.csv,price,total_price,heuristic_mapped
+output_Lucknow_villa.csv,price_currency,total_price,heuristic_mapped
+output_Lucknow_villa.csv,status,property_status,heuristic_mapped
+output_Lucknow_villa.csv,new/resale,UNKNOWN,needs_review
+output_Lucknow_villa.csv,price_negotiable,total_price,heuristic_mapped
+output_Lucknow_villa.csv,description,UNKNOWN,needs_review
+output_Lucknow_villa.csv,security_deposit,UNKNOWN,needs_review
+output_Lucknow_villa.csv,facing,UNKNOWN,needs_review
+output_Lucknow_villa.csv,furnished,furnished,heuristic_mapped
+output_Lucknow_villa.csv,age of property,property_age,heuristic_mapped
+output_Lucknow_villa.csv,locality_score,UNKNOWN,needs_review
+output_Lucknow_villa.csv,project_score,UNKNOWN,needs_review
+output_Lucknow_villa.csv,builder_experience,UNKNOWN,needs_review
+output_Lucknow_villa.csv,Gymnasium,UNKNOWN,needs_review
+output_Lucknow_villa.csv,24 X 7 Security,UNKNOWN,needs_review
+output_Lucknow_villa.csv,Swimming Pool,UNKNOWN,needs_review
+output_Lucknow_villa.csv,Lift(s),UNKNOWN,needs_review
+output_Lucknow_villa.csv,Jogging Track,UNKNOWN,needs_review
+output_Lucknow_villa.csv,Club House,UNKNOWN,needs_review
+output_Lucknow_villa.csv,Landscaped Gardens,UNKNOWN,needs_review
+output_Lucknow_villa.csv,Rain Water Harvesting,UNKNOWN,needs_review
+output_Lucknow_villa.csv,Sports Facility,UNKNOWN,needs_review
+output_Lucknow_villa.csv,Car Parking,UNKNOWN,needs_review
+output_Lucknow_villa.csv,Children's play area,builtup_area_sqft,heuristic_mapped
+output_Lucknow_villa.csv,Full Power Backup,UNKNOWN,needs_review
+output_Lucknow_villa.csv,Vaastu Compliant,UNKNOWN,needs_review
+output_Lucknow_villa.csv,Indoor Games,UNKNOWN,needs_review
+output_Lucknow_villa.csv,Intercom,UNKNOWN,needs_review
+output_Lucknow_villa.csv,Maintenance Staff,UNKNOWN,needs_review
+output_Lucknow_villa.csv,Shopping Mall,pincode,heuristic_mapped
+output_Lucknow_villa.csv,Cafeteria,UNKNOWN,needs_review
+output_Lucknow_villa.csv,ATM,UNKNOWN,needs_review
+output_Lucknow_villa.csv,Multipurpose Room,UNKNOWN,needs_review
+output_Lucknow_villa.csv,School,UNKNOWN,needs_review
+output_Lucknow_villa.csv,Hospital,UNKNOWN,needs_review
+output_Lucknow_villa.csv,Golf Course,UNKNOWN,needs_review
+output_Lucknow_villa.csv,Staff Quarter,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,location,locality,heuristic_mapped
+output_Pune_builderfloor.csv,area,builtup_area_sqft,heuristic_mapped
+output_Pune_builderfloor.csv,price,total_price,heuristic_mapped
+output_Pune_builderfloor.csv,price_currency,total_price,heuristic_mapped
+output_Pune_builderfloor.csv,status,property_status,heuristic_mapped
+output_Pune_builderfloor.csv,new/resale,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,price_negotiable,total_price,heuristic_mapped
+output_Pune_builderfloor.csv,description,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,security_deposit,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,facing,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,furnished,furnished,heuristic_mapped
+output_Pune_builderfloor.csv,age of property,property_age,heuristic_mapped
+output_Pune_builderfloor.csv,Lift(s),UNKNOWN,needs_review
+output_Pune_builderfloor.csv,Full Power Backup,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,24 X 7 Security,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,Children's play area,builtup_area_sqft,heuristic_mapped
+output_Pune_builderfloor.csv,Club House,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,Gymnasium,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,Swimming Pool,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,Sports Facility,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,Jogging Track,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,Landscaped Gardens,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,locality_score,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,project_score,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,builder_experience,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,Rain Water Harvesting,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,Intercom,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,Car Parking,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,Vaastu Compliant,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,Indoor Games,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,Multipurpose Room,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,Staff Quarter,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,Cafeteria,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,School,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,Maintenance Staff,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,Shopping Mall,pincode,heuristic_mapped
+output_Pune_builderfloor.csv,Golf Course,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,ATM,UNKNOWN,needs_review
+output_Pune_builderfloor.csv,Hospital,UNKNOWN,needs_review
+output_Pune_plot.csv,location,locality,heuristic_mapped
+output_Pune_plot.csv,area,builtup_area_sqft,heuristic_mapped
+output_Pune_plot.csv,price,total_price,heuristic_mapped
+output_Pune_plot.csv,price_currency,total_price,heuristic_mapped
+output_Pune_plot.csv,status,property_status,heuristic_mapped
+output_Pune_plot.csv,new/resale,UNKNOWN,needs_review
+output_Pune_plot.csv,price_negotiable,total_price,heuristic_mapped
+output_Pune_plot.csv,description,UNKNOWN,needs_review
+output_Pune_plot.csv,security_deposit,UNKNOWN,needs_review
+output_Pune_plot.csv,facing,UNKNOWN,needs_review
+output_Pune_plot.csv,furnished,furnished,heuristic_mapped
+output_Pune_plot.csv,age of property,property_age,heuristic_mapped
+output_Pune_plot.csv,Lift(s),UNKNOWN,needs_review
+output_Pune_plot.csv,Full Power Backup,UNKNOWN,needs_review
+output_Pune_plot.csv,24 X 7 Security,UNKNOWN,needs_review
+output_Pune_plot.csv,Children's play area,builtup_area_sqft,heuristic_mapped
+output_Pune_plot.csv,Club House,UNKNOWN,needs_review
+output_Pune_plot.csv,Gymnasium,UNKNOWN,needs_review
+output_Pune_plot.csv,Swimming Pool,UNKNOWN,needs_review
+output_Pune_plot.csv,Sports Facility,UNKNOWN,needs_review
+output_Pune_plot.csv,Jogging Track,UNKNOWN,needs_review
+output_Pune_plot.csv,Landscaped Gardens,UNKNOWN,needs_review
+output_Pune_plot.csv,locality_score,UNKNOWN,needs_review
+output_Pune_plot.csv,project_score,UNKNOWN,needs_review
+output_Pune_plot.csv,builder_experience,UNKNOWN,needs_review
+output_Pune_plot.csv,Multipurpose Room,UNKNOWN,needs_review
+output_Pune_plot.csv,Intercom,UNKNOWN,needs_review
+output_Pune_plot.csv,Maintenance Staff,UNKNOWN,needs_review
+output_Pune_plot.csv,Car Parking,UNKNOWN,needs_review
+output_Pune_plot.csv,Rain Water Harvesting,UNKNOWN,needs_review
+output_Pune_plot.csv,Vaastu Compliant,UNKNOWN,needs_review
+output_Pune_plot.csv,Indoor Games,UNKNOWN,needs_review
+output_Pune_plot.csv,Golf Course,UNKNOWN,needs_review
+output_Pune_plot.csv,Cafeteria,UNKNOWN,needs_review
+output_Pune_plot.csv,ATM,UNKNOWN,needs_review
+output_Pune_plot.csv,Hospital,UNKNOWN,needs_review
+output_Pune_plot.csv,School,UNKNOWN,needs_review
+output_Pune_plot.csv,Shopping Mall,pincode,heuristic_mapped
+output_Pune_plot.csv,Staff Quarter,UNKNOWN,needs_review
+output_Pune_villa.csv,location,locality,heuristic_mapped
+output_Pune_villa.csv,area,builtup_area_sqft,heuristic_mapped
+output_Pune_villa.csv,price,total_price,heuristic_mapped
+output_Pune_villa.csv,price_currency,total_price,heuristic_mapped
+output_Pune_villa.csv,status,property_status,heuristic_mapped
+output_Pune_villa.csv,new/resale,UNKNOWN,needs_review
+output_Pune_villa.csv,price_negotiable,total_price,heuristic_mapped
+output_Pune_villa.csv,description,UNKNOWN,needs_review
+output_Pune_villa.csv,security_deposit,UNKNOWN,needs_review
+output_Pune_villa.csv,facing,UNKNOWN,needs_review
+output_Pune_villa.csv,furnished,furnished,heuristic_mapped
+output_Pune_villa.csv,age of property,property_age,heuristic_mapped
+output_Pune_villa.csv,Lift(s),UNKNOWN,needs_review
+output_Pune_villa.csv,Full Power Backup,UNKNOWN,needs_review
+output_Pune_villa.csv,24 X 7 Security,UNKNOWN,needs_review
+output_Pune_villa.csv,Children's play area,builtup_area_sqft,heuristic_mapped
+output_Pune_villa.csv,Club House,UNKNOWN,needs_review
+output_Pune_villa.csv,Gymnasium,UNKNOWN,needs_review
+output_Pune_villa.csv,Swimming Pool,UNKNOWN,needs_review
+output_Pune_villa.csv,Sports Facility,UNKNOWN,needs_review
+output_Pune_villa.csv,Jogging Track,UNKNOWN,needs_review
+output_Pune_villa.csv,Landscaped Gardens,UNKNOWN,needs_review
+output_Pune_villa.csv,locality_score,UNKNOWN,needs_review
+output_Pune_villa.csv,project_score,UNKNOWN,needs_review
+output_Pune_villa.csv,builder_experience,UNKNOWN,needs_review
+output_Pune_villa.csv,Rain Water Harvesting,UNKNOWN,needs_review
+output_Pune_villa.csv,Car Parking,UNKNOWN,needs_review
+output_Pune_villa.csv,Vaastu Compliant,UNKNOWN,needs_review
+output_Pune_villa.csv,Golf Course,UNKNOWN,needs_review
+output_Pune_villa.csv,Intercom,UNKNOWN,needs_review
+output_Pune_villa.csv,Indoor Games,UNKNOWN,needs_review
+output_Pune_villa.csv,Maintenance Staff,UNKNOWN,needs_review
+output_Pune_villa.csv,Multipurpose Room,UNKNOWN,needs_review
+output_Pune_villa.csv,ATM,UNKNOWN,needs_review
+output_Pune_villa.csv,Cafeteria,UNKNOWN,needs_review
+output_Pune_villa.csv,Staff Quarter,UNKNOWN,needs_review
+output_Pune_villa.csv,Hospital,UNKNOWN,needs_review
+output_Pune_villa.csv,School,UNKNOWN,needs_review
+output_Pune_villa.csv,Shopping Mall,pincode,heuristic_mapped
+RE_Combined_Data.xlsx,PROP_ID,UNKNOWN,needs_review
+RE_Combined_Data.xlsx,PROPERTY_TYPE,property_type,heuristic_mapped
+RE_Combined_Data.xlsx,CITY,city,heuristic_mapped
+RE_Combined_Data.xlsx,ADDRESS,UNKNOWN,needs_review
+RE_Combined_Data.xlsx,RESALE,UNKNOWN,needs_review
+RE_Combined_Data.xlsx,OWNTYPE,property_type,heuristic_mapped
+RE_Combined_Data.xlsx,BEDROOM_NUM,bhk,heuristic_mapped
+RE_Combined_Data.xlsx,BATHROOM_NUM,bathrooms,heuristic_mapped
+RE_Combined_Data.xlsx,BALCONY_NUM,UNKNOWN,needs_review
+RE_Combined_Data.xlsx,PRICE_PER_UNIT_AREA,total_price,heuristic_mapped
+RE_Combined_Data.xlsx,FURNISH,UNKNOWN,needs_review
+RE_Combined_Data.xlsx,FACING,UNKNOWN,needs_review
+RE_Combined_Data.xlsx,AGE,property_age,heuristic_mapped
+RE_Combined_Data.xlsx,FLOOR_NUM,UNKNOWN,needs_review
+RE_Combined_Data.xlsx,TOTAL_FLOOR,UNKNOWN,needs_review
+RE_Combined_Data.xlsx,PROP_NAME,UNKNOWN,needs_review
+RE_Combined_Data.xlsx,MIN_PRICE,total_price,heuristic_mapped
+RE_Combined_Data.xlsx,MAX_PRICE,total_price,heuristic_mapped
+RE_Combined_Data.xlsx,PRICE_SQFT,total_price,heuristic_mapped
+RE_Combined_Data.xlsx,BUILDING_ID,UNKNOWN,needs_review
+RE_Combined_Data.xlsx,CARPET_SQFT,builtup_area_sqft,heuristic_mapped
+RE_Combined_Data.xlsx,SUPERBUILTUP_SQFT,builtup_area_sqft,heuristic_mapped
+RE_Combined_Data.xlsx,BROKERAGE,property_age,heuristic_mapped
+RE_Combined_Data.xlsx,MIN_AREA_SQFT,builtup_area_sqft,heuristic_mapped
+RE_Combined_Data.xlsx,MAX_AREA_SQFT,builtup_area_sqft,heuristic_mapped
+RE_Combined_Data.xlsx,EXPIRY_DATE,UNKNOWN,needs_review
+RE_Combined_Data.xlsx,PRICE,total_price,heuristic_mapped
+RE_Combined_Data.xlsx,CLASS_LABEL,UNKNOWN,needs_review
+RE_Combined_Data.xlsx,TOTAL_LANDMARK_COUNT,UNKNOWN,needs_review
+RE_Combined_Data.xlsx,CONTACT_COMPANY_NAME,UNKNOWN,needs_review
+real_estate_dataset.json,real_estate_listings,UNKNOWN,needs_review

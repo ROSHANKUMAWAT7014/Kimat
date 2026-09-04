@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic
+pandas
+numpy
+scikit-learn
+xgboost
+joblib
+SQLAlchemy
+psycopg2-binary
+matplotlib
+jupyter
+pymongo

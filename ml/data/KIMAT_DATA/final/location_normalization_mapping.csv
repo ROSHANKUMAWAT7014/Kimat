@@ -1,0 +1,157 @@
+original_value,standardized_value,field,source,reason
+andhra pradesh,Andhra Pradesh,state,dataset_1/up.csv,Capitalization/Known alias
+assam,Assam,state,dataset_1/up.csv,Capitalization/Known alias
+bihar,Bihar,state,dataset_1/up.csv,Capitalization/Known alias
+chandigarh,Chandigarh,state,dataset_1/up.csv,Capitalization/Known alias
+chattisgarh,Chattisgarh,state,dataset_1/up.csv,Capitalization/Known alias
+delhi,Delhi,state,dataset_1/up.csv,Capitalization/Known alias
+goa,Goa,state,dataset_1/up.csv,Capitalization/Known alias
+haryana,Haryana,state,dataset_1/up.csv,Capitalization/Known alias
+himachal_pradesh,Himachal_Pradesh,state,dataset_1/up.csv,Capitalization/Known alias
+jharkhand,Jharkhand,state,dataset_1/up.csv,Capitalization/Known alias
+karnataka,Karnataka,state,dataset_1/up.csv,Capitalization/Known alias
+Bangalore,Bengaluru,district,dataset_1/up.csv,Capitalization/Known alias
+Bangalore,Bengaluru,city,dataset_1/up.csv,Capitalization/Known alias
+Bangalore,Bengaluru,locality,dataset_1/up.csv,Capitalization/Known alias
+kerala,Kerala,state,dataset_1/up.csv,Capitalization/Known alias
+madhya pradesh,Madhya Pradesh,state,dataset_1/up.csv,Capitalization/Known alias
+orissa,Orissa,state,dataset_1/up.csv,Capitalization/Known alias
+punjab,Punjab,state,dataset_1/up.csv,Capitalization/Known alias
+rajasthan,Rajasthan,state,dataset_1/up.csv,Capitalization/Known alias
+telangana,Telangana,state,dataset_1/up.csv,Capitalization/Known alias
+uttarakhand,Uttarakhand,state,dataset_1/up.csv,Capitalization/Known alias
+west bengal,West Bengal,state,dataset_1/up.csv,Capitalization/Known alias
+tamil nadu,Tamil Nadu,state,dataset_1/up.csv,Capitalization/Known alias
+maharastra,Maharastra,state,dataset_1/up.csv,Capitalization/Known alias
+Bangalore,Bengaluru,district,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+Bangalore,Bengaluru,city,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+SBI Employees Colony,Sbi Employees Colony,locality,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+sheetal apartments,Sheetal Apartments,locality,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+good earth hamlet,Good Earth Hamlet,locality,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+"Near Shri Shirdi Sai Baba Temple, Pothayadi junction.","Near Shri Shirdi Sai Baba Temple, Pothayadi Junction.",locality,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+GN Mills,Gn Mills,locality,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+Mansarovar Township (Siliguri WB),Mansarovar Township (Siliguri Wb),locality,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+Ambari falakata,Ambari Falakata,locality,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+KPHB,Kphb,locality,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+ECR,Ecr,locality,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+sector 121,Sector 121,locality,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+RTC colony,Rtc Colony,locality,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+Sector 9 MVP Colony,Sector 9 Mvp Colony,locality,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+"SBI Staff Colony, Srinivasa Nagar","Sbi Staff Colony, Srinivasa Nagar",locality,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+balacheruvu road,Balacheruvu Road,locality,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+Bangalore Highway,Bengaluru Highway,locality,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+New perungalathur,New Perungalathur,locality,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+"Maraimalai Nagar, GST Road","Maraimalai Nagar, Gst Road",locality,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+nallasopara,Nallasopara,locality,dataset_2/real_estate_dataset.csv,Capitalization/Known alias
+New chandigarh mohali,New Chandigarh Mohali,locality,dataset_4/output_Chandigarh_builderfloor.csv,Capitalization/Known alias
+Zirakpur GAzipur Road,Zirakpur Gazipur Road,locality,dataset_4/output_Chandigarh_builderfloor.csv,Capitalization/Known alias
+PEER MUCHALLA ADJOING SEC 20 PANCHKULA,Peer Muchalla Adjoing Sec 20 Panchkula,locality,dataset_4/output_Chandigarh_builderfloor.csv,Capitalization/Known alias
+DLF Mullanpur,Dlf Mullanpur,locality,dataset_4/output_Chandigarh_builderfloor.csv,Capitalization/Known alias
+SEC 115 MOHALI KHARAR LANDRAN ROAD,Sec 115 Mohali Kharar Landran Road,locality,dataset_4/output_Chandigarh_builderfloor.csv,Capitalization/Known alias
+IT Park Road,It Park Road,locality,dataset_4/output_Chandigarh_builderfloor.csv,Capitalization/Known alias
+kharar landran road,Kharar Landran Road,locality,dataset_4/output_Chandigarh_builderfloor.csv,Capitalization/Known alias
+sector 5 Mubarikpur road derabassi,Sector 5 Mubarikpur Road Derabassi,locality,dataset_4/output_Chandigarh_builderfloor.csv,Capitalization/Known alias
+Zirakpur punjab,Zirakpur Punjab,locality,dataset_4/output_Chandigarh_builderfloor.csv,Capitalization/Known alias
+SECTOR 115 MOHALI ON KHARAR LANDRAN ROAD,Sector 115 Mohali On Kharar Landran Road,locality,dataset_4/output_Chandigarh_builderfloor.csv,Capitalization/Known alias
+SEC 116 MOHALI KHARAR LANDRAN ROAD,Sec 116 Mohali Kharar Landran Road,locality,dataset_4/output_Chandigarh_builderfloor.csv,Capitalization/Known alias
+TDI city,Tdi City,locality,dataset_4/output_Chandigarh_builderfloor.csv,Capitalization/Known alias
+sector 123,Sector 123,locality,dataset_4/output_Chandigarh_builderfloor.csv,Capitalization/Known alias
+SEC 116 MOHALI ON KHARAR LANDRAN ROAD,Sec 116 Mohali On Kharar Landran Road,locality,dataset_4/output_Chandigarh_builderfloor.csv,Capitalization/Known alias
+NEARBY PEERMUCHALLA SECTOR 20 PANCHKULA,Nearby Peermuchalla Sector 20 Panchkula,locality,dataset_4/output_Chandigarh_builderfloor.csv,Capitalization/Known alias
+zirakpur vip road,Zirakpur Vip Road,locality,dataset_4/output_Chandigarh_builderfloor.csv,Capitalization/Known alias
+Road to Airport,Road To Airport,locality,dataset_4/output_Chandigarh_builderfloor.csv,Capitalization/Known alias
+New chandigarh mohali,New Chandigarh Mohali,locality,dataset_4/output_Chandigarh_plot.csv,Capitalization/Known alias
+kharar landran road,Kharar Landran Road,locality,dataset_4/output_Chandigarh_plot.csv,Capitalization/Known alias
+Zirakpur punjab,Zirakpur Punjab,locality,dataset_4/output_Chandigarh_plot.csv,Capitalization/Known alias
+zirakpur vip road,Zirakpur Vip Road,locality,dataset_4/output_Chandigarh_plot.csv,Capitalization/Known alias
+DLF Mullanpur,Dlf Mullanpur,locality,dataset_4/output_Chandigarh_plot.csv,Capitalization/Known alias
+SEC 115 MOHALI KHARAR LANDRAN ROAD,Sec 115 Mohali Kharar Landran Road,locality,dataset_4/output_Chandigarh_plot.csv,Capitalization/Known alias
+Zirakpur GAzipur Road,Zirakpur Gazipur Road,locality,dataset_4/output_Chandigarh_plot.csv,Capitalization/Known alias
+PEER MUCHALLA ADJOING SEC 20 PANCHKULA,Peer Muchalla Adjoing Sec 20 Panchkula,locality,dataset_4/output_Chandigarh_plot.csv,Capitalization/Known alias
+sector 123,Sector 123,locality,dataset_4/output_Chandigarh_plot.csv,Capitalization/Known alias
+New chandigarh mohali,New Chandigarh Mohali,locality,dataset_4/output_Chandigarh_villa.csv,Capitalization/Known alias
+PEER MUCHALLA ADJOING SEC 20 PANCHKULA,Peer Muchalla Adjoing Sec 20 Panchkula,locality,dataset_4/output_Chandigarh_villa.csv,Capitalization/Known alias
+sector 123,Sector 123,locality,dataset_4/output_Chandigarh_villa.csv,Capitalization/Known alias
+IT Park Road,It Park Road,locality,dataset_4/output_Chandigarh_villa.csv,Capitalization/Known alias
+SEC 115 MOHALI KHARAR LANDRAN ROAD,Sec 115 Mohali Kharar Landran Road,locality,dataset_4/output_Chandigarh_villa.csv,Capitalization/Known alias
+kharar landran road,Kharar Landran Road,locality,dataset_4/output_Chandigarh_villa.csv,Capitalization/Known alias
+NEARBY PEERMUCHALLA SECTOR 20 PANCHKULA,Nearby Peermuchalla Sector 20 Panchkula,locality,dataset_4/output_Chandigarh_villa.csv,Capitalization/Known alias
+Zirakpur GAzipur Road,Zirakpur Gazipur Road,locality,dataset_4/output_Chandigarh_villa.csv,Capitalization/Known alias
+Zirakpur punjab,Zirakpur Punjab,locality,dataset_4/output_Chandigarh_villa.csv,Capitalization/Known alias
+DLF Ankur Vihar,Dlf Ankur Vihar,locality,dataset_4/output_Ghaziabad_builderfloor.csv,Capitalization/Known alias
+wave city,Wave City,locality,dataset_4/output_Ghaziabad_builderfloor.csv,Capitalization/Known alias
+vaishali sector 5,Vaishali Sector 5,locality,dataset_4/output_Ghaziabad_builderfloor.csv,Capitalization/Known alias
+Niti Khand II,Niti Khand Ii,locality,dataset_4/output_Ghaziabad_builderfloor.csv,Capitalization/Known alias
+sanjay nagar,Sanjay Nagar,locality,dataset_4/output_Ghaziabad_builderfloor.csv,Capitalization/Known alias
+gyan khand 1,Gyan Khand 1,locality,dataset_4/output_Ghaziabad_builderfloor.csv,Capitalization/Known alias
+vaishali 5,Vaishali 5,locality,dataset_4/output_Ghaziabad_builderfloor.csv,Capitalization/Known alias
+vaishali sector 3,Vaishali Sector 3,locality,dataset_4/output_Ghaziabad_builderfloor.csv,Capitalization/Known alias
+SHAKTI KHAND 4,Shakti Khand 4,locality,dataset_4/output_Ghaziabad_builderfloor.csv,Capitalization/Known alias
+Niti Khand III,Niti Khand Iii,locality,dataset_4/output_Ghaziabad_builderfloor.csv,Capitalization/Known alias
+nyay khand 1 indirapuram ghaziabad,Nyay Khand 1 Indirapuram Ghaziabad,locality,dataset_4/output_Ghaziabad_builderfloor.csv,Capitalization/Known alias
+"SHAKTI KHAND 3, indirapuram","Shakti Khand 3, Indirapuram",locality,dataset_4/output_Ghaziabad_builderfloor.csv,Capitalization/Known alias
+"GYAN KHAND - 1, INDIRAPURAM","Gyan Khand - 1, Indirapuram",locality,dataset_4/output_Ghaziabad_builderfloor.csv,Capitalization/Known alias
+DLF Dilshad Extension2,Dlf Dilshad Extension2,locality,dataset_4/output_Ghaziabad_builderfloor.csv,Capitalization/Known alias
+NH 24 Highway,Nh 24 Highway,locality,dataset_4/output_Ghaziabad_builderfloor.csv,Capitalization/Known alias
+wave city,Wave City,locality,dataset_4/output_Ghaziabad_plot.csv,Capitalization/Known alias
+duhai,Duhai,locality,dataset_4/output_Ghaziabad_plot.csv,Capitalization/Known alias
+DLF Ankur Vihar,Dlf Ankur Vihar,locality,dataset_4/output_Ghaziabad_plot.csv,Capitalization/Known alias
+sanjay nagar,Sanjay Nagar,locality,dataset_4/output_Ghaziabad_plot.csv,Capitalization/Known alias
+SHAKTI KHAND 4,Shakti Khand 4,locality,dataset_4/output_Ghaziabad_plot.csv,Capitalization/Known alias
+"GYAN KHAND - 1, INDIRAPURAM","Gyan Khand - 1, Indirapuram",locality,dataset_4/output_Ghaziabad_plot.csv,Capitalization/Known alias
+Niti Khand II,Niti Khand Ii,locality,dataset_4/output_Ghaziabad_plot.csv,Capitalization/Known alias
+NH 24 Highway,Nh 24 Highway,locality,dataset_4/output_Ghaziabad_plot.csv,Capitalization/Known alias
+NH9,Nh9,locality,dataset_4/output_Ghaziabad_plot.csv,Capitalization/Known alias
+NH34,Nh34,locality,dataset_4/output_Ghaziabad_plot.csv,Capitalization/Known alias
+Girdharpur village,Girdharpur Village,locality,dataset_4/output_Ghaziabad_plot.csv,Capitalization/Known alias
+vaishali sector 3,Vaishali Sector 3,locality,dataset_4/output_Ghaziabad_plot.csv,Capitalization/Known alias
+vaishali 5,Vaishali 5,locality,dataset_4/output_Ghaziabad_plot.csv,Capitalization/Known alias
+duhai,Duhai,locality,dataset_4/output_Ghaziabad_villa.csv,Capitalization/Known alias
+SWAROOP PARK,Swaroop Park,locality,dataset_4/output_Ghaziabad_villa.csv,Capitalization/Known alias
+sanjay nagar,Sanjay Nagar,locality,dataset_4/output_Ghaziabad_villa.csv,Capitalization/Known alias
+jankipuram vistar,Jankipuram Vistar,locality,dataset_4/output_Lucknow_builderfloor.csv,Capitalization/Known alias
+amar shaheed path lucknow,Amar Shaheed Path Lucknow,locality,dataset_4/output_Lucknow_builderfloor.csv,Capitalization/Known alias
+Babu Banarasi Das National Institute of Technology Management BBD,Babu Banarasi Das National Institute Of Technology Management Bbd,locality,dataset_4/output_Lucknow_builderfloor.csv,Capitalization/Known alias
+LDA Colony,Lda Colony,locality,dataset_4/output_Lucknow_builderfloor.csv,Capitalization/Known alias
+CHINHAT TIRAHA,Chinhat Tiraha,locality,dataset_4/output_Lucknow_plot.csv,Capitalization/Known alias
+jankipuram vistar,Jankipuram Vistar,locality,dataset_4/output_Lucknow_plot.csv,Capitalization/Known alias
+Eldeco II,Eldeco Ii,locality,dataset_4/output_Lucknow_plot.csv,Capitalization/Known alias
+sushant golf city sultanpur road,Sushant Golf City Sultanpur Road,locality,dataset_4/output_Lucknow_plot.csv,Capitalization/Known alias
+sultanpur road near shaheed pa,Sultanpur Road Near Shaheed Pa,locality,dataset_4/output_Lucknow_plot.csv,Capitalization/Known alias
+Babu Banarasi Das National Institute of Technology Management BBD,Babu Banarasi Das National Institute Of Technology Management Bbd,locality,dataset_4/output_Lucknow_plot.csv,Capitalization/Known alias
+Rai Bareilly road,Rai Bareilly Road,locality,dataset_4/output_Lucknow_plot.csv,Capitalization/Known alias
+kishan path,Kishan Path,locality,dataset_4/output_Lucknow_plot.csv,Capitalization/Known alias
+amar shaheed path lucknow,Amar Shaheed Path Lucknow,locality,dataset_4/output_Lucknow_plot.csv,Capitalization/Known alias
+gossaiganj sultanpur road,Gossaiganj Sultanpur Road,locality,dataset_4/output_Lucknow_plot.csv,Capitalization/Known alias
+Ansal API,Ansal Api,locality,dataset_4/output_Lucknow_plot.csv,Capitalization/Known alias
+Ansal API Lucknow,Ansal Api Lucknow,locality,dataset_4/output_Lucknow_plot.csv,Capitalization/Known alias
+ahmamau,Ahmamau,locality,dataset_4/output_Lucknow_plot.csv,Capitalization/Known alias
+cantt Road,Cantt Road,locality,dataset_4/output_Lucknow_plot.csv,Capitalization/Known alias
+khargapur,Khargapur,locality,dataset_4/output_Lucknow_plot.csv,Capitalization/Known alias
+Eldeco II,Eldeco Ii,locality,dataset_4/output_Lucknow_villa.csv,Capitalization/Known alias
+CHINHAT TIRAHA,Chinhat Tiraha,locality,dataset_4/output_Lucknow_villa.csv,Capitalization/Known alias
+SGPGI Rae Bareilly Road,Sgpgi Rae Bareilly Road,locality,dataset_4/output_Lucknow_villa.csv,Capitalization/Known alias
+SGPGI Raibareli Road,Sgpgi Raibareli Road,locality,dataset_4/output_Lucknow_villa.csv,Capitalization/Known alias
+NIBM Annex Mohammadwadi,Nibm Annex Mohammadwadi,locality,dataset_4/output_Pune_builderfloor.csv,Capitalization/Known alias
+Mohammed wadi,Mohammed Wadi,locality,dataset_4/output_Pune_builderfloor.csv,Capitalization/Known alias
+MAE Campus,Mae Campus,locality,dataset_4/output_Pune_builderfloor.csv,Capitalization/Known alias
+Kune N.m.,Kune N.M.,locality,dataset_4/output_Pune_plot.csv,Capitalization/Known alias
+kesnand,Kesnand,locality,dataset_4/output_Pune_plot.csv,Capitalization/Known alias
+NIBM Annex Mohammadwadi,Nibm Annex Mohammadwadi,locality,dataset_4/output_Pune_plot.csv,Capitalization/Known alias
+Mohammed wadi,Mohammed Wadi,locality,dataset_4/output_Pune_plot.csv,Capitalization/Known alias
+MAE Campus,Mae Campus,locality,dataset_4/output_Pune_plot.csv,Capitalization/Known alias
+Ranjangaon MIDC,Ranjangaon Midc,locality,dataset_4/output_Pune_plot.csv,Capitalization/Known alias
+wakadewadi,Wakadewadi,locality,dataset_4/output_Pune_plot.csv,Capitalization/Known alias
+Jejuri MIDC,Jejuri Midc,locality,dataset_4/output_Pune_plot.csv,Capitalization/Known alias
+khamboli,Khamboli,locality,dataset_4/output_Pune_plot.csv,Capitalization/Known alias
+wadebolhai,Wadebolhai,locality,dataset_4/output_Pune_plot.csv,Capitalization/Known alias
+charholi Khurd,Charholi Khurd,locality,dataset_4/output_Pune_plot.csv,Capitalization/Known alias
+Hinjewadi Phase II,Hinjewadi Phase Ii,locality,dataset_4/output_Pune_plot.csv,Capitalization/Known alias
+khese park,Khese Park,locality,dataset_4/output_Pune_plot.csv,Capitalization/Known alias
+Talegaon MIDC Road,Talegaon Midc Road,locality,dataset_4/output_Pune_plot.csv,Capitalization/Known alias
+hingne Khurd,Hingne Khurd,locality,dataset_4/output_Pune_plot.csv,Capitalization/Known alias
+Mohammed wadi,Mohammed Wadi,locality,dataset_4/output_Pune_villa.csv,Capitalization/Known alias
+NIBM Annex Mohammadwadi,Nibm Annex Mohammadwadi,locality,dataset_4/output_Pune_villa.csv,Capitalization/Known alias
+kesnand,Kesnand,locality,dataset_4/output_Pune_villa.csv,Capitalization/Known alias
+MAE Campus,Mae Campus,locality,dataset_4/output_Pune_villa.csv,Capitalization/Known alias
+NIBM,Nibm,locality,dataset_4/output_Pune_villa.csv,Capitalization/Known alias

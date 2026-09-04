@@ -1,0 +1,39 @@
+################################################################################
+# Render deployment configuration for the Kimat FastAPI backend.
+#
+# How to use:
+#   1. Push the project to a GitHub repo.
+#   2. In Render, create a new "Web Service" and connect the repo.
+#   3. Render will auto-detect this file and pre-fill the settings.
+#   4. Set the environment variables listed below in the Render dashboard.
+################################################################################
+
+services:
+  - type: web
+    name: kimat-backend
+    runtime: python
+    region: singapore          # closest to India — change to your preference
+    plan: free                 # upgrade to "starter" for always-on
+
+    # Root directory that contains the backend code.
+    rootDir: backend
+
+    # Install all Python dependencies.
+    buildCommand: pip install -r requirements.txt
+
+    # Start the FastAPI server.
+    # $PORT is injected by Render; --host 0.0.0.0 is required for Render networking.
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+
+    # Health check — Render uses this to decide if the deployment succeeded.
+    healthCheckPath: /health
+
+    # Environment variables — set real values in the Render dashboard.
+    # Do NOT store secrets in this file.
+    envVars:
+      - key: MONGODB_URI
+        sync: false            # set manually in Render dashboard (MongoDB Atlas URI)
+      - key: JWT_SECRET_KEY
+        sync: false            # set manually in Render dashboard
+      - key: FRONTEND_URL
+        sync: false            # set to your Vercel frontend URL, e.g. https://kimat.vercel.app

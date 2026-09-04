@@ -1,0 +1,174 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Kimat design system.
+ * Ink-and-marigold identity: deep indigo ink surfaces, marigold accent,
+ * jade for positive signals, clay for negative ones.
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+  --color-ink: var(--ink);
+  --color-ink-foreground: var(--ink-foreground);
+  --color-jade: var(--jade);
+  --color-clay: var(--clay);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --shadow-panel: 0 1px 2px oklch(0 0 0 / 0.05), 0 18px 40px -24px oklch(0.25 0.06 265 / 0.45);
+  --shadow-lift: 0 24px 60px -28px oklch(0.25 0.06 265 / 0.55);
+}
+
+:root {
+  --radius: 0.9rem;
+  --background: oklch(0.978 0.008 95);
+  --foreground: oklch(0.22 0.035 265);
+  --surface: oklch(1 0 0);
+  --surface-2: oklch(0.955 0.012 95);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.22 0.035 265);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.22 0.035 265);
+  --primary: oklch(0.31 0.075 264);
+  --primary-foreground: oklch(0.985 0.008 95);
+  --secondary: oklch(0.94 0.016 95);
+  --secondary-foreground: oklch(0.28 0.05 264);
+  --muted: oklch(0.945 0.012 95);
+  --muted-foreground: oklch(0.5 0.03 265);
+  --accent: oklch(0.79 0.155 72);
+  --accent-foreground: oklch(0.23 0.05 60);
+  --destructive: oklch(0.56 0.19 27);
+  --destructive-foreground: oklch(0.985 0.008 95);
+  --border: oklch(0.9 0.014 95);
+  --input: oklch(0.9 0.014 95);
+  --ring: oklch(0.79 0.155 72);
+  --ink: oklch(0.24 0.055 264);
+  --ink-foreground: oklch(0.97 0.01 95);
+  --jade: oklch(0.6 0.115 165);
+  --clay: oklch(0.6 0.145 35);
+  --chart-1: oklch(0.79 0.155 72);
+  --chart-2: oklch(0.6 0.115 165);
+  --chart-3: oklch(0.31 0.075 264);
+  --chart-4: oklch(0.6 0.145 35);
+  --chart-5: oklch(0.65 0.09 265);
+}
+
+.dark {
+  --background: oklch(0.17 0.035 264);
+  --foreground: oklch(0.95 0.012 95);
+  --surface: oklch(0.215 0.04 264);
+  --surface-2: oklch(0.25 0.042 264);
+  --card: oklch(0.215 0.04 264);
+  --card-foreground: oklch(0.95 0.012 95);
+  --popover: oklch(0.215 0.04 264);
+  --popover-foreground: oklch(0.95 0.012 95);
+  --primary: oklch(0.93 0.02 95);
+  --primary-foreground: oklch(0.2 0.04 264);
+  --secondary: oklch(0.27 0.04 264);
+  --secondary-foreground: oklch(0.95 0.012 95);
+  --muted: oklch(0.26 0.038 264);
+  --muted-foreground: oklch(0.72 0.025 265);
+  --accent: oklch(0.81 0.16 72);
+  --accent-foreground: oklch(0.2 0.05 60);
+  --destructive: oklch(0.66 0.17 25);
+  --destructive-foreground: oklch(0.98 0.01 95);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 16%);
+  --ring: oklch(0.81 0.16 72);
+  --ink: oklch(0.13 0.03 264);
+  --ink-foreground: oklch(0.96 0.012 95);
+  --jade: oklch(0.72 0.12 165);
+  --clay: oklch(0.7 0.14 38);
+  --chart-1: oklch(0.81 0.16 72);
+  --chart-2: oklch(0.72 0.12 165);
+  --chart-3: oklch(0.75 0.06 265);
+  --chart-4: oklch(0.7 0.14 38);
+  --chart-5: oklch(0.6 0.08 265);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    transition:
+      background-color 320ms ease,
+      color 320ms ease;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+@utility panel {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-panel);
+}
+
+@utility label-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-muted-foreground);
+}
+
+@utility grain {
+  background-image:
+    radial-gradient(circle at 12% 18%, oklch(0.79 0.155 72 / 0.14), transparent 42%),
+    radial-gradient(circle at 88% 8%, oklch(0.6 0.115 165 / 0.12), transparent 46%);
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

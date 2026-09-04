@@ -1,0 +1,445 @@
+{
+  "source_model": "xgboost",
+  "importances": [
+    {
+      "feature": "city_mumbai",
+      "importance": 0.3900144100189209
+    },
+    {
+      "feature": "city_delhi",
+      "importance": 0.08531925827264786
+    },
+    {
+      "feature": "locality_Bandra",
+      "importance": 0.08148644864559174
+    },
+    {
+      "feature": "city_bengaluru",
+      "importance": 0.033401839435100555
+    },
+    {
+      "feature": "locality_Powai",
+      "importance": 0.023189080879092216
+    },
+    {
+      "feature": "locality_South Delhi",
+      "importance": 0.022000083699822426
+    },
+    {
+      "feature": "city_lucknow",
+      "importance": 0.01922057382762432
+    },
+    {
+      "feature": "city_jaipur",
+      "importance": 0.018824931234121323
+    },
+    {
+      "feature": "city_chandigarh",
+      "importance": 0.018691707402467728
+    },
+    {
+      "feature": "city_pune",
+      "importance": 0.0180119127035141
+    },
+    {
+      "feature": "city_ahmedabad",
+      "importance": 0.017269577831029892
+    },
+    {
+      "feature": "locality_Andheri West",
+      "importance": 0.01258212048560381
+    },
+    {
+      "feature": "locality_Thane",
+      "importance": 0.012287072837352753
+    },
+    {
+      "feature": "locality_Gurugram",
+      "importance": 0.012011950835585594
+    },
+    {
+      "feature": "locality_Greater Noida",
+      "importance": 0.010336754843592644
+    },
+    {
+      "feature": "locality_Navi Mumbai",
+      "importance": 0.009839612059295177
+    },
+    {
+      "feature": "locality_Banjara Hills",
+      "importance": 0.009701668284833431
+    },
+    {
+      "feature": "locality_Sector 8",
+      "importance": 0.009375679306685925
+    },
+    {
+      "feature": "locality_Koregaon Park",
+      "importance": 0.008726690895855427
+    },
+    {
+      "feature": "locality_Electronic City",
+      "importance": 0.007629711180925369
+    },
+    {
+      "feature": "locality_Adyar",
+      "importance": 0.0071656000800430775
+    },
+    {
+      "feature": "locality_Indiranagar",
+      "importance": 0.007039339747279882
+    },
+    {
+      "feature": "locality_Koramangala",
+      "importance": 0.006947495974600315
+    },
+    {
+      "feature": "locality_Aluva",
+      "importance": 0.006890002638101578
+    },
+    {
+      "feature": "locality_Borivali",
+      "importance": 0.006681222468614578
+    },
+    {
+      "feature": "city_kochi",
+      "importance": 0.00657199090346694
+    },
+    {
+      "feature": "city_kolkata",
+      "importance": 0.006444570142775774
+    },
+    {
+      "feature": "property_type_plot",
+      "importance": 0.00612744502723217
+    },
+    {
+      "feature": "area_sqft",
+      "importance": 0.0057852002792060375
+    },
+    {
+      "feature": "locality_Anna Nagar",
+      "importance": 0.004358433187007904
+    },
+    {
+      "feature": "locality_Zirakpur",
+      "importance": 0.004293844103813171
+    },
+    {
+      "feature": "locality_Howrah",
+      "importance": 0.00421946682035923
+    },
+    {
+      "feature": "locality_Sector 22",
+      "importance": 0.003938579931855202
+    },
+    {
+      "feature": "locality_Uppal",
+      "importance": 0.0035815162118524313
+    },
+    {
+      "feature": "locality_Ballygunge",
+      "importance": 0.003143059089779854
+    },
+    {
+      "feature": "city_hyderabad",
+      "importance": 0.003099583089351654
+    },
+    {
+      "feature": "property_type_apartment",
+      "importance": 0.0030610202811658382
+    },
+    {
+      "feature": "locality_Kakkanad",
+      "importance": 0.0029991301707923412
+    },
+    {
+      "feature": "locality_Tambaram",
+      "importance": 0.002898951293900609
+    },
+    {
+      "feature": "locality_SG Highway",
+      "importance": 0.002894066506996751
+    },
+    {
+      "feature": "locality_IT Park",
+      "importance": 0.0028504023794084787
+    },
+    {
+      "feature": "locality_Hitec City",
+      "importance": 0.002798924222588539
+    },
+    {
+      "feature": "locality_Miyapur",
+      "importance": 0.0027397554367780685
+    },
+    {
+      "feature": "locality_C-Scheme",
+      "importance": 0.002723918529227376
+    },
+    {
+      "feature": "age_band_20+",
+      "importance": 0.0027080851141363382
+    },
+    {
+      "feature": "locality_Behala",
+      "importance": 0.002690857043489814
+    },
+    {
+      "feature": "locality_Marine Drive",
+      "importance": 0.0026418077759444714
+    },
+    {
+      "feature": "property_type_villa",
+      "importance": 0.002635411685332656
+    },
+    {
+      "feature": "locality_Baner",
+      "importance": 0.0026039823424071074
+    },
+    {
+      "feature": "locality_Panampilly Nagar",
+      "importance": 0.0022976126056164503
+    },
+    {
+      "feature": "locality_Chandkheda",
+      "importance": 0.002184604061767459
+    },
+    {
+      "feature": "locality_Panchkula",
+      "importance": 0.002144017955288291
+    },
+    {
+      "feature": "locality_Ajmer Road",
+      "importance": 0.002092669252306223
+    },
+    {
+      "feature": "locality_Mohali",
+      "importance": 0.002065601758658886
+    },
+    {
+      "feature": "locality_Gachibowli",
+      "importance": 0.002052985830232501
+    },
+    {
+      "feature": "locality_Maninagar",
+      "importance": 0.0019504193915054202
+    },
+    {
+      "feature": "locality_Salt Lake",
+      "importance": 0.0017602603184059262
+    },
+    {
+      "feature": "bhk",
+      "importance": 0.0017360156634822488
+    },
+    {
+      "feature": "locality_Noida",
+      "importance": 0.0016356653068214655
+    },
+    {
+      "feature": "locality_Raebareli Road",
+      "importance": 0.0016294331289827824
+    },
+    {
+      "feature": "age_band_new",
+      "importance": 0.0014170556096360087
+    },
+    {
+      "feature": "locality_Jankipuram",
+      "importance": 0.0013777014100924134
+    },
+    {
+      "feature": "locality_Gomti Nagar",
+      "importance": 0.0013753072125837207
+    },
+    {
+      "feature": "property_age_years",
+      "importance": 0.0013351795496419072
+    },
+    {
+      "feature": "locality_Satellite",
+      "importance": 0.001310484018176794
+    },
+    {
+      "feature": "city_chennai",
+      "importance": 0.0012798123061656952
+    },
+    {
+      "feature": "locality_Kondapur",
+      "importance": 0.0012598318280652165
+    },
+    {
+      "feature": "locality_Garia",
+      "importance": 0.0012409600894898176
+    },
+    {
+      "feature": "locality_Jagatpura",
+      "importance": 0.0012349658645689487
+    },
+    {
+      "feature": "locality_Malviya Nagar",
+      "importance": 0.0012317270739004016
+    },
+    {
+      "feature": "locality_Indira Nagar",
+      "importance": 0.0011865460546687245
+    },
+    {
+      "feature": "locality_Vastrapur",
+      "importance": 0.001126377028413117
+    },
+    {
+      "feature": "locality_Kharadi",
+      "importance": 0.0011205921182408929
+    },
+    {
+      "feature": "locality_Hinjewadi",
+      "importance": 0.001082586939446628
+    },
+    {
+      "feature": "locality_OMR",
+      "importance": 0.0010263341246172786
+    },
+    {
+      "feature": "locality_Hadapsar",
+      "importance": 0.0010208089370280504
+    },
+    {
+      "feature": "locality_Hazratganj",
+      "importance": 0.0010028165997937322
+    },
+    {
+      "feature": "locality_Bopal",
+      "importance": 0.0009701026137918234
+    },
+    {
+      "feature": "locality_Porur",
+      "importance": 0.0009644691017456353
+    },
+    {
+      "feature": "locality_Dwarka",
+      "importance": 0.0009048678912222385
+    },
+    {
+      "feature": "locality_Edappally",
+      "importance": 0.0008781735668890178
+    },
+    {
+      "feature": "furnishing_status_full",
+      "importance": 0.0008342031505890191
+    },
+    {
+      "feature": "locality_New Town",
+      "importance": 0.0008265817305073142
+    },
+    {
+      "feature": "property_type_independent",
+      "importance": 0.0007933179731480777
+    },
+    {
+      "feature": "total_floors",
+      "importance": 0.0007754742982797325
+    },
+    {
+      "feature": "furnishing_status_unfurnished",
+      "importance": 0.000726096099242568
+    },
+    {
+      "feature": "locality_Hebbal",
+      "importance": 0.0006738430238328874
+    },
+    {
+      "feature": "bathrooms",
+      "importance": 0.0005461421678774059
+    },
+    {
+      "feature": "locality_Whitefield",
+      "importance": 0.0005343497614376247
+    },
+    {
+      "feature": "age_band_10-20",
+      "importance": 0.0005182673339731991
+    },
+    {
+      "feature": "floor",
+      "importance": 0.000508995377458632
+    },
+    {
+      "feature": "locality_Mansarovar",
+      "importance": 0.0005074376240372658
+    },
+    {
+      "feature": "locality_Aliganj",
+      "importance": 0.0005062722484581172
+    },
+    {
+      "feature": "security",
+      "importance": 0.0004245330928824842
+    },
+    {
+      "feature": "parking",
+      "importance": 0.000355364492861554
+    },
+    {
+      "feature": "locality_Velachery",
+      "importance": 0.00032198475673794746
+    },
+    {
+      "feature": "locality_Sarjapur Road",
+      "importance": 0.0002997383417095989
+    },
+    {
+      "feature": "locality_Vaishali Nagar",
+      "importance": 0.0002965214371215552
+    },
+    {
+      "feature": "age_band_5-10",
+      "importance": 0.0002883482084143907
+    },
+    {
+      "feature": "age_band_1-5",
+      "importance": 0.00027609936660155654
+    },
+    {
+      "feature": "clubhouse",
+      "importance": 0.0002624274347908795
+    },
+    {
+      "feature": "lift",
+      "importance": 0.00022913179418537766
+    },
+    {
+      "feature": "pool",
+      "importance": 0.00022261537378653884
+    },
+    {
+      "feature": "locality_Rohini",
+      "importance": 0.00021587687660939991
+    },
+    {
+      "feature": "gym",
+      "importance": 0.00020898456568829715
+    },
+    {
+      "feature": "power_backup",
+      "importance": 0.00016812725516501814
+    },
+    {
+      "feature": "locality_Fort Kochi",
+      "importance": 0.0001337360154138878
+    },
+    {
+      "feature": "furnishing_status_semi",
+      "importance": 0.00011295893636997789
+    },
+    {
+      "feature": "garden",
+      "importance": 8.195590635295957e-05
+    },
+    {
+      "feature": "locality_Wakad",
+      "importance": 0.0
+    }
+  ]
+}
